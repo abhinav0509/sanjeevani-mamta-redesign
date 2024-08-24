@@ -1,0 +1,77 @@
+[13-Apr-2023 14:15:34 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/smmhospital/public_html/contact.php:68
+Stack trace:
+#0 {main}
+  thrown in /home/smmhospital/public_html/contact.php on line 68
+[13-Apr-2023 14:15:43 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/smmhospital/public_html/contact.php:68
+Stack trace:
+#0 {main}
+  thrown in /home/smmhospital/public_html/contact.php on line 68
+[13-Apr-2023 14:15:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/smmhospital/public_html/contact.php:68
+Stack trace:
+#0 {main}
+  thrown in /home/smmhospital/public_html/contact.php on line 68
+[13-Apr-2023 14:15:59 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/smmhospital/public_html/contact.php:68
+Stack trace:
+#0 {main}
+  thrown in /home/smmhospital/public_html/contact.php on line 68
+[03-May-2023 16:21:05 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Insert_mod::news_insert() in /home/smmhospital/public_html/application/models/Insert_mod.php on line 222
+[03-May-2023 17:13:31 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::diagnostics_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 340
+[03-May-2023 17:13:34 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::diagnostics_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 340
+[03-May-2023 17:15:23 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::diagnostics_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 340
+[03-May-2023 17:15:26 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::diagnostics_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 340
+[03-May-2023 17:17:31 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::diagnostics_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 340
+[03-May-2023 17:17:34 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::diagnostics_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 340
+[03-May-2023 17:17:37 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::diagnostics_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 340
+[03-May-2023 17:21:57 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::diagnostics_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 340
+[03-May-2023 17:29:26 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::diagnostics_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 340
+[03-May-2023 17:33:24 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::diagnostics_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 340
+[03-May-2023 17:33:51 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::diagnostics_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 340
+[03-May-2023 17:33:54 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::diagnostics_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 340
+[03-May-2023 17:33:57 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::diagnostics_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 340
+[03-May-2023 17:34:00 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::diagnostics_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 340
+[03-May-2023 17:34:05 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::diagnostics_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 340
+[03-May-2023 17:34:09 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::diagnostics_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 340
+[03-May-2023 17:38:27 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::diagnostics_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 340
+[17-May-2023 15:54:38 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::contacts_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 788
+[17-May-2023 15:54:41 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::contacts_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 788
+[17-May-2023 16:05:01 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::contacts_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 788
+[17-May-2023 16:05:03 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::contacts_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 788
+[17-May-2023 16:14:03 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::contacts_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 788
+[17-May-2023 16:14:13 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Delete_mod::contacts_delete() in /home/smmhospital/public_html/application/models/Delete_mod.php on line 788
+[19-May-2023 14:53:56 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Front_mod::get_hosid() in /home/smmhospital/public_html/application/models/Front_mod.php on line 870
+[26-May-2023 11:52:39 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Front_mod::get_mission() in /home/smmhospital/public_html/application/models/Front_mod.php on line 870
+[26-May-2023 12:45:58 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Insert::insert_department1() in /home/smmhospital/public_html/application/controllers/Insert.php on line 1113
+[01-Jun-2023 16:00:54 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Status::news() in /home/smmhospital/public_html/application/controllers/Status.php on line 549
+[02-Jun-2023 11:48:03 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Insert::insert_mission() in /home/smmhospital/public_html/application/controllers/Insert.php on line 1180
+[05-Jun-2023 16:29:20 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Welcome::Appointment() in /home/smmhospital/public_html/application/controllers/Welcome.php on line 565
+[05-Aug-2023 15:18:23 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Front_mod::get_testimonial() in /home/smmhospital/public_html/application/models/Front_mod.php on line 1002
+[05-Aug-2023 15:20:16 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Front_mod::get_3testimonial() in /home/smmhospital/public_html/application/models/Front_mod.php on line 1014
+[05-Aug-2023 15:20:49 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Front_mod::get_3testimonial() in /home/smmhospital/public_html/application/models/Front_mod.php on line 1014
+[05-Aug-2023 15:34:54 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Update::update_testimonial() in /home/smmhospital/public_html/application/controllers/Update.php on line 3600
+[09-Feb-2024 14:21:52 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Welcome::diagnostics() in /home/sanjeevanimamtah/public_html/application/controllers/Welcome.php on line 1307
+[09-Feb-2024 14:35:01 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Front_mod::get_campdata() in /home/sanjeevanimamtah/public_html/application/models/Front_mod.php on line 1034
+[09-Feb-2024 14:44:44 Asia/Kolkata] PHP Fatal error:  Cannot use [] for reading in /home/sanjeevanimamtah/public_html/application/models/Front_mod.php on line 1045
+[09-Feb-2024 14:54:18 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Welcome::diagnostics() in /home/sanjeevanimamtah/public_html/application/controllers/Welcome.php on line 1307
+[09-Feb-2024 14:54:36 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Front_mod::camp_count() in /home/sanjeevanimamtah/public_html/application/models/Front_mod.php on line 1013
+[09-Feb-2024 14:55:16 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Front_mod::get_camp() in /home/sanjeevanimamtah/public_html/application/models/Front_mod.php on line 1023
+[09-Feb-2024 14:55:19 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Front_mod::get_camp() in /home/sanjeevanimamtah/public_html/application/models/Front_mod.php on line 1023
+[09-Feb-2024 14:55:20 Asia/Kolkata] PHP Fatal error:  Cannot redeclare Front_mod::get_camp() in /home/sanjeevanimamtah/public_html/application/models/Front_mod.php on line 1023
+[07-Jul-2024 04:24:54 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[07-Jul-2024 05:02:15 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[07-Jul-2024 05:30:38 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[07-Jul-2024 05:41:38 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[07-Jul-2024 05:48:15 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[07-Jul-2024 05:52:31 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[07-Jul-2024 05:57:08 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[07-Jul-2024 05:59:54 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[07-Jul-2024 06:01:00 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[07-Jul-2024 06:02:09 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[07-Jul-2024 07:25:32 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[07-Jul-2024 07:35:30 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[07-Jul-2024 07:35:41 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[07-Jul-2024 09:09:48 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[07-Jul-2024 09:39:47 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[07-Jul-2024 09:41:42 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[11-Jul-2024 07:17:08 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[11-Jul-2024 07:51:44 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/sanjeevanimamtah/public_html/system/libraries/Session/drivers/Session_files_driver.php on line 272
+[

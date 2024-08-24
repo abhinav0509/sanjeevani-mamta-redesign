@@ -1,0 +1,166 @@
+.functionList > li a {
+	background-color: rgb(53,126,189);
+}
+.welcome
+{color:#fff;font-size:22px;font-weight:600;text-align:center; padding-left: 30px;display: inline-block;}
+.navbar-default.lightHeader .navbar-nav > li > a {
+	color: #000000;
+	cursor: pointer;
+	padding: 0 0 10px 0;
+}
+.nav.navbar-nav.new_menu {
+	margin-top: 20px;
+}
+.pageTitleSection {
+	background-image: url(../img/nucleaer.jpg);
+}
+
+.DrNucleart > p {
+	margin-bottom: 0;
+	line-height: 28px;
+}
+.DrNucleart {
+	padding: 0;
+}
+
+@media (min-width: 1200px) and (max-width: 1350px){
+	.navbar-default .new_menu > li > a > span {
+	width: 125px !important;
+	padding: 0;
+}
+.navbar-nav > li {
+	float: left;
+	width: 120px !important;
+}
+
+}
+@media (min-width: 981px) and (max-width: 1199px){
+	
+#menuBar > .container .navbar-nav > li {
+	float: left;
+	width: 111px;
+}
+.new_menu {
+	margin-left: 0;
+}
+#menuBar .navbar-header {
+	width: 155px !important;
+}
+.navbar-brand {
+	font-size: 11px;
+}
+.collapse.navbar-collapse.navbar-ex1-collapse {
+	display: inline-block !important;
+	width: calc(100% - 156px);
+	padding: 0;
+}
+.navbar-default .new_menu > li > a > span {
+	width: 110px !important;
+	padding: 0;
+	font-size: 10px;
+}
+.navbar-default .navbar-nav {
+	width: auto;
+	margin-left: 70px;
+}
+.navbar-default .navbar-nav {
+	width: auto;
+	margin: 0;
+	margin: 15px 0 0 66px;
+}
+#menuBar > .container .navbar-nav > li {
+	float: left;
+	width: 110px;
+}
+.welcome {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	padding-left: 30px;
+	display: inline-block;
+	width: auto;
+}
+.container.mycont {
+	width: 90%;
+	margin-top: 17px;
+}
+}
+@media (min-width: 768px) and (max-width: 980px){
+	
+#menuBar > .container .navbar-nav > li {
+	float: left;
+	width: 111px;
+}
+.new_menu {
+	margin-left: 0;
+}
+#menuBar .navbar-header {
+	width: 155px !important;
+}
+.navbar-brand {
+	font-size: 11px;
+}
+.collapse.navbar-collapse.navbar-ex1-collapse {
+	display: inline-block !important;
+	width: calc(100% - 156px);
+	padding: 0;
+}
+.navbar-default .new_menu > li > a > span {
+	width: 111px;
+	padding: 0;
+	font-size: 10px;
+}
+.navbar-default .navbar-nav {
+	width: 100%;margin: 0;margin: 15px 0 0 0;
+}
+#menuBar > .container .navbar-nav > li {
+	float: left;
+	width: 90px;
+}
+.navbar-default .new_menu > li > a > span {
+	width: 90px !important;
+	padding: 0;
+}
+.welcome {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	padding-left: 30px;
+	display: inline-block;
+	width: auto;
+}
+.container.mycont {
+	width: 90%;
+	margin-top: 17px;
+}
+}
+
+@media (max-width: 767px){
+.navbar-collapse.navbar-ex1-collapse.collapse.in {
+	padding: 0;
+}
+
+.navbar-default .navbar-nav {
+	height: 340px !important;
+	margin: 0;
+	width: 100%;
+}
+.navbar-default .new_menu > li > a > span {
+	width: auto;
+	padding: 0;
+}
+.opdNuclear {
+	margin-top: 20px;
+	border: 1px solid rgba(0,0,0,.2);
+	padding: 10px;
+	box-shadow: 1px 2px 3px rgba(0,0,0,.3);
+	display: inline-block;
+	width: 100%;
+}
+.dayTimesHeading {
+	text-align: left;
+	padding: 0;
+}
+}

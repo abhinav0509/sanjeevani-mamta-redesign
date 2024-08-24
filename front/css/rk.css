@@ -1,0 +1,54 @@
+
+.dnone{display:none;}
+.mymenu .mainnmenu ul.menu li:nth-of-type(3) .sub_menu {display:none;}
+.about-countinner {
+	background: #fbfbfb;
+	padding: 10px;
+	border: 1px solid #e7e7e7;
+	border-radius: 5px;
+	box-shadow: 1px 1px 4px 1px #ddd;
+}
+.about-countinner h2{margin-bottom:25px;}
+
+.myhospital {
+	position: relative;
+}
+.about-countinner > .img-responsive , .singlebanner{
+	height: auto;
+	width: 100%;
+	margin-bottom: 20px;
+	
+}
+
+.mysub_menu {
+	position: absolute;
+	left: 252px;
+	width: 156px;
+	z-index: 100 !important;
+	top: 0;
+	opacity:0;
+	transition:all .7s ease;
+}
+.myhospital:hover .mysub_menu{opacity:1;}
+.myhospital li {
+	border: 1px solid #1993BC;
+	margin: 0px !important;
+	background-color: #1993BC;
+	padding: 5px 10px;
+}
+
+.mysub_menu li a {
+	color: #fff !important;
+}
+.myhospital > a{display:inline-block;}
+
+.myhosptlist {
+	padding: 10px 20px;
+}
+.myhosptlist li {
+	line-height: 22px;
+	margin-bottom: 10px;
+}
+.myhosptlist li a strong {
+	color: #1993BC;
+}
