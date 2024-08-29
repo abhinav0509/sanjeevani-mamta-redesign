@@ -181,9 +181,56 @@
        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
     }
+  
+    .hero-image{
+      position: relative;  
+    }
+
+    .svg-animation{
+      top:-18%;
+      left:6%;  
+      position: absolute;
+      animation: spin 40s linear infinite;
+      z-index: -11111;
+      width:100%;
+     }
+     @keyframes spin {
+      0%{
+        transform: rotate(0deg);
+      }
+      100%{
+         transform: rotate(360deg);
+      }
+      
+    }
+     #hero-image-doctor{
+        z-index: 99999;
+     }
     body{
       background-color:#F5F6FA;
+     
     } 
+    .departments{
+        position: relative;
+        overflow: hidden;
+    }
+    .bg-picture{
+        position: absolute;
+        top:20%;
+        left:60%;
+        height:400px;
+        width:400px;
+        opacity: 0.5;
+        object-fit: contain;
+        /* border-radius: 50%; */
+        object-fit: cover;
+        transform: rotate(60deg);
+        z-index: -9999;
+    
+        
+
+    }
+
 </style>
 
 
@@ -198,7 +245,7 @@
                     healthcare
                 </h1>
                 <p>
-                    At Sanjeevani Mamta Super Specialty Hospital, your health and well-being are our
+                    At Sanjeevani Mamta Multi Specialty Hospital, your health and well-being are our
                     top priorities and we are committed to providing exceptional care with compassion,
                     expertise, and innovation
                 </p>
@@ -215,7 +262,7 @@
                 </div>
                 <div class="row mt-20">
                     <div class="col d-flex flex-column" style="">
-                      
+                       
                         <p class="rating">Rated <b>4.8</b> &nbsp;<i style="color:#F0C24B" class="fa fa-star"
                                 aria-hidden="true"></i><i style="color:#F0C24B" class="fa fa-star"
                                 aria-hidden="true"></i><i style="color:#F0C24B" class="fa fa-star"
@@ -228,14 +275,21 @@
                 </div>
             </div>
             <div class="hero-image col-md-6 col-lg-6">
-                <img class="img-fluid" src="assets/img/hero/doctor-hero.png" alt="hero-image-doctor">
+                <div class="svg-animation">
+                <img src="assets/img/hero/hero-circle.png">
+                </div>
+                <img class="img-fluid" id="hero-image-doctor" src="assets/img/hero/doctor-hero.png" alt="hero-image-doctor">
+
             </div>
     </div>
 </section>
 <!-- Hero Section End -->
 
 <!--Departments Intro Section Start-->
-<section class="container" style="margin-top:40px;">
+<section class="container departments" style="margin-top:120px;">
+    <div class="bg-picture">
+        <img src="assets/img/hero/sanjeevani-bg.png" alt="">
+    </div>
     <div class="row justify-content-center text-center">
         <div class="col-md-12">
             <h3 style="color:#E85D21;">Our Specialised Departments</h3>
