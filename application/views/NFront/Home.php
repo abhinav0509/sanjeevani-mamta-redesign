@@ -230,6 +230,9 @@
         
 
     }
+    #dept-tile:hover{
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
 
 </style>
 
@@ -288,7 +291,7 @@
 <!--Departments Intro Section Start-->
 <section class="container departments" style="margin-top:120px;">
     <div class="bg-picture">
-        <img src="assets/img/hero/sanjeevani-bg.png" alt="">
+       
     </div>
     <div class="row justify-content-center text-center">
         <div class="col-md-12">
@@ -303,7 +306,7 @@
                     <div class="col-md-12">
                         <div class="row row-cols-3 row-cols-lg-5 g-2 g-lg-4">
                         
-                            <div class="col">
+                            <div class="col" id="dept-tile">
                                 <a href="https://www.sanjeevanimamtahospital.com/index.php/SingleDept/Cancer%20-%20Oncology" class="pg_widget" id="COE_Oncology">
                                     <img src="assets/img/Dept/Icons/oncology_icon.svg"
                                         alt="icon">
@@ -311,42 +314,42 @@
                                 </a>
                             </div>
                             
-                            <div class="col">
+                            <div class="col" id="dept-tile">
                                 <a href="https://www.sanjeevanimamtahospital.com/index.php/SingleDept/Orthopaedics" class="pg_widget" id="COE_Orthopaedic">
                                     <img src="assets/img/Dept/Icons/Orthopaedic.svg"
                                         alt="icon">
                                     <h5>Orthopaedic</h5>
                                 </a>
                             </div>
-                            <div class="col">
+                            <div class="col" id="dept-tile">
                                 <a href="https://www.sanjeevanimamtahospital.com/index.php/SingleDept/General%20medicine" class="pg_widget" id="COE_GenMedicine">
                                     <img src="assets/img/Dept/Icons/general_medicine.svg"
                                         alt="icon">
                                     <h5>Gen.Medicine</h5>
                                 </a>
                             </div>
-                             <div class="col">
+                             <div class="col" id="dept-tile">
                                 <a href="https://www.sanjeevanimamtahospital.com/index.php/SingleDept/Dental" class="pg_widget" id="COE_Dentistry">
                                     <img src="assets/img/Dept/Icons/dentistry.svg"
                                         alt="icon">
                                     <h5>Dentistry</h5>
                                 </a>
                             </div>
-                            <div class="col">
+                            <div class="col" id="dept-tile">
                                 <a href="https://www.sanjeevanimamtahospital.com/index.php/SingleDept/Nephrology%20-%20Dialysis" class="pg_widget" id="COE_Nephrology">
                                     <img src="assets/img/Dept/Icons/nephrology.svg"
                                         alt="icon">
                                     <h5>Nephrology</h5>
                                 </a>
                             </div>
-                               <div class="col">
+                               <div class="col" id="dept-tile">
                                 <a href="https://www.sanjeevanimamtahospital.com/index.php/SingleDept/General%20Surgery" class="pg_widget" id="COE_GEN_SURGERY">
                                     <img src="assets/img/Dept/Icons/gensurgery.svg"
                                         alt="icon">
                                     <h5>Gen.Surgery</h5>
                                 </a>
                             </div>
-                               <div class="col">
+                               <div class="col" id="dept-tile">
                                 <a href="https://www.sanjeevanimamtahospital.com/index.php/SingleDept/ENT" class="pg_widget" id="COE_ENT">
                                     <img src="assets/img/Dept/Icons/ent.svg"
                                         alt="icon">
@@ -355,7 +358,7 @@
                             </div>
 
 
-                            <div class="col">
+                            <div class="col" id="dept-tile">
                                 <a href="https://www.sanjeevanimamtahospital.com/index.php/SingleDept/Neurology" class="pg_widget" id="COE_Neurology">
                                     <img src="assets/img/Dept/Icons/neurology.svg"
                                         alt="icon">
@@ -363,7 +366,7 @@
                                 </a>
                             </div>
 
-                            <div class="col">
+                            <div class="col" id="dept-tile">
                                 <a href="https://www.sanjeevanimamtahospital.com/index.php/SingleDept/Gastroenterology" class="pg_widget">
                                     <img src="assets/img/Dept/Icons/gastroenterology.svg"
                                         alt="icon">
@@ -371,7 +374,7 @@
                                 </a>
                             </div>
 
-                            <div class="col">
+                            <div class="col" id="dept-tile">
                                 <a href="https://www.sanjeevanimamtahospital.com/index.php/SingleDept/Gynecology" class="pg_widget">
                                     <img src="assets/img/Dept/Icons/gynecology.svg"
                                         alt="icon">
@@ -379,7 +382,7 @@
                                 </a>
                             </div>
 
-                            <div class="col">
+                            <div class="col" id="dept-tile">
                                 <a href="https://www.sanjeevanimamtahospital.com/index.php/SingleDept/Aesthetic" class="pg_widget">
                                     <img src="assets/img/Dept/Icons/dermatology.svg"
                                         alt="icon">
@@ -387,7 +390,7 @@
                                 </a>
                             </div>
 
-                            <div class="col">
+                            <div class="col" id="dept-tile">
                                 <a href="https://www.sanjeevanimamtahospital.com/index.php/SingleDept/Opthalmology" class="pg_widget" id="COE_Ophthalmology">
                                     <img src="assets/img/Dept/Icons/ophthalmology.svg"
                                         alt="icon">
@@ -395,14 +398,14 @@
                                 </a>
                             </div>
 
-                            <div class="col">
+                            <div class="col" id="dept-tile">
                                 <a href="https://www.sanjeevanimamtahospital.com/index.php/SingleDept/Paediatrics" class="pg_widget" id="COE_Pediatrics">
                                     <img src="assets/img/Dept/Icons/paediatricurology.svg"
                                         alt="icon">
                                     <h5>Pediatrics</h5>
                                 </a>
                             </div>
-                            <div class="col">
+                            <div class="col" id="dept-tile">
                                 <a href="https://www.sanjeevanimamtahospital.com/index.php/SingleDept/Urology" class="pg_widget" id="COE_Urology">
                                     <img src="assets/img/Dept/Icons/urology.svg"
                                         alt="icon">
