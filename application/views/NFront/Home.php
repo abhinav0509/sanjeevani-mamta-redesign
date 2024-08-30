@@ -214,22 +214,7 @@
         position: relative;
         overflow: hidden;
     }
-    .bg-picture{
-        position: absolute;
-        top:20%;
-        left:60%;
-        height:400px;
-        width:400px;
-        opacity: 0.5;
-        object-fit: contain;
-        /* border-radius: 50%; */
-        object-fit: cover;
-        transform: rotate(60deg);
-        z-index: -9999;
-    
-        
-
-    }
+   
     #dept-tile:hover{
         transform: scale3d(1.1, 1.1, 1.1);
     }
@@ -237,7 +222,7 @@
 </style>
 
 
-
+<!--Hero Section Start-->
 
 <section class="new-hero container" style="margin-top:150px;">
     <div class="row">
@@ -428,6 +413,33 @@
     </div>
 
 </section>
+<!-- Core Specialised Departments Start -->
+
+ <section class="core-department container" style="margin-top:120px;">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h2 class="text-center"  style="color:#E85D21;">Our Core Specialised Deptarments</h2>
+            <p class="text-center">We are..........</p>
+        
+        </div>
+        
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col"  style="background-color:#000; height:60vh;">Orthopaedic</div>
+            <div class="col"  style="background-color:orange; height:60vh;">Orthopaedic</div>
+            <div class="col"  style="background-color:silver; height:60vh;">Orthopaedic</div>
+            <div class="col"  style="background-color:gray; height:60vh;">Orthopaedic</div>
+            <div class="col"  style="background-color:crimson; height:60vh;">Orthopaedic</div>
+            <div class="col"  style="background-color:tomato; height:60vh;">Orthopaedic</div>
+        </div>
+    </div>
+   
+
+ </section>
+
+
+<!-- Core Specialised Departments End -->
 
 <!-- Why Choose Us Section Begin"--->
 
