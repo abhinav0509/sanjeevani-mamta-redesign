@@ -218,6 +218,22 @@
     #dept-tile:hover{
         transform: scale3d(1.1, 1.1, 1.1);
     }
+    #knee-div{
+      
+        background-color:gray;
+        height:60vh;
+        width:20%;
+        background-image:url(assets/img/Core-Departments/Knee-Replacement-Surgery.jpg);
+        background-repeat:no-repeat;  
+        background-size: cover;
+        background-position:right center;
+        overflow:hidden;
+    }
+    #knee-div:hover{
+        width:80vw;
+        height:
+    }
+
 
 </style>
 
@@ -280,7 +296,7 @@
     </div>
     <div class="row justify-content-center text-center">
         <div class="col-md-12">
-            <h3 style="color:#E85D21;">Our Specialised Departments</h3>
+            <h3 style="color:#E85D21;">Our Departments</h3>
             <p class="sub_hdng pt-1">We have team of highly qualified doctors</p>
             <br>
         </div>
@@ -426,12 +442,46 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col"  style="background-color:#000; height:60vh;">Orthopaedic</div>
-            <div class="col"  style="background-color:orange; height:60vh;">Orthopaedic</div>
-            <div class="col"  style="background-color:silver; height:60vh;">Orthopaedic</div>
-            <div class="col"  style="background-color:gray; height:60vh;">Orthopaedic</div>
-            <div class="col"  style="background-color:crimson; height:60vh;">Orthopaedic</div>
-            <div class="col"  style="background-color:tomato; height:60vh;">Orthopaedic</div>
+           
+              <div class="col"  style="background-image:url(assets/img/Core-Departments/cancer-care.jpg);background-color:green; height:60vh; background-size:cover; background-position:bottom center; opacity:0.3;">
+                <div class="deptc-info d-flex align-items-center justify-content-center">
+                        <h6>Cancer Care</h6>
+                        <img> 
+                </div>
+               </div>
+
+            
+            
+            <div class="col" id="knee-div" style="">
+                <div class="deptc-info d-flex align-items-center justify-content-center">
+                        <h6>Joint Replacement</h6>
+                </div>
+            </div>
+            <div class="col"  style="height:60vh; background-image:url(assets/img/Core-Departments/pediatric-surgery-in-india.jpg);background-color:green; height:60vh; background-size:cover; background-position:bottom center;">
+                <div class="deptc-info d-flex align-items-center justify-content-center">
+                        <h6>Pediatric Orthopedic</h6>
+                        <img> 
+                </div>    
+           </div>
+            <div class="col" style="height:60vh; background-image:url(assets/img/Core-Departments/ent-surgery.jpg);background-color:green; height:60vh; background-size:cover; background-position:left center;">
+                <div class="deptc-info d-flex align-items-center justify-content-center">
+                                <h6>ENT Surgeries</h6>
+                                <img src=""> 
+                </div>    
+            </div>
+            <div class="col" style="height:60vh; background-image:url(assets/img/Core-Departments/cataract-2.jpg);background-color:green; height:60vh; background-size:cover; background-position:bottom center; ">
+                    <div class="deptc-info d-flex align-items-center justify-content-center">
+                                <h6>Cataract Surgeries</h6>
+                                <img> 
+                   </div>       
+            </div>
+            <div class="col" style="height:60vh; background-image:url(assets/img/Core-Departments/dialysis.jpg);background-color:green; height:60vh; background-size:cover; background-position:bottom center;">
+            <div class="deptc-info d-flex align-items-center justify-content-center">
+                        <h6>Dialysis</h6>
+                        <img> 
+                </div>  
+                
+            </div>
         </div>
     </div>
    
