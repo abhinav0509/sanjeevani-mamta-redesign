@@ -434,8 +434,8 @@
  <section class="core-department container" style="margin-top:120px;">
     <div class="row">
         <div class="col-md-12 text-center">
-            <h2 class="text-center"  style="color:#E85D21;">Our Core Specialised Deptarments</h2>
-            <p class="text-center">We are..........</p>
+            <h2 class="text-center"  style="color:#E85D21;">Our Core Specialised Departments</h2>
+            <p class="text-center">We provide world class service with our eminent doctors</p>
         
         </div>
         
@@ -443,7 +443,7 @@
     <div class="container">
         <div class="row">
            
-              <div class="col"  style="background-image:url(assets/img/Core-Departments/cancer-care.jpg);background-color:green; height:60vh; background-size:cover; background-position:bottom center; opacity:0.3;">
+              <div class="col"  style="background-image:url(assets/img/Core-Departments/cancer-care.jpg);background-color:green; height:60vh; background-size:cover; background-position:bottom center;">
                 <div class="deptc-info d-flex align-items-center justify-content-center">
                         <h6>Cancer Care</h6>
                         <img> 
