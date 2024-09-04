@@ -165,14 +165,30 @@
         font-weight: 900;
         font-size: 28px;
     }
+
     .who-card {
         background-color:#fff;
-        padding: 16px;
+        
         border-radius: 16px;
+        position: relative;
+        z-index: 9999;
     }
+
+    .who-card-overlay{
+        position: absolute;
+        top:8%;
+        left:8%;
+        width:100%;
+        background-color:#E85D21;
+        height: 500px;
+        border-radius: 16px;
+        z-index: -22;
+    }
+
     .who-card .card-img {
         border-radius: 16px;
         height: 500px;
+        
     }
     .bg-image-community{
         /* filter: blur(2px);
@@ -495,7 +511,7 @@
     <div class="container">
         <div class="row g-lg-5 g-3">
             <div class="col-md-6">
-                <!-- <h4 class="sec_title">WHO WE ARE</h4> -->
+              
                 <h3 style="color:#E85D21;" class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">Why Choose Sanjeevani Mamta?</h3>
                 <p>
                     We offer a wide range of specialized medical services to address your unique
@@ -575,11 +591,16 @@
                 </div>
             </div>
             <div class="col-md-6">
-
+                
+                
                 <div class="card border-0 who-card">
+                    <div class="who-card-overlay">
+                   
+                  
+
+                    </div>
+                    
                     <img src="assets/img/why-choose-us/patient-care-v1.jpg" class="card-img " alt="...">
-
-
                 </div>
             </div>
           
