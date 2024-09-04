@@ -295,9 +295,9 @@
        
     </div>
     <div class="row justify-content-center text-center">
-        <div class="col-md-12">
+        <div class="col-md-12 aos-init aos-animate"  data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
             <h3 style="color:#E85D21;">Our Departments</h3>
-            <p class="sub_hdng pt-1">We have team of highly qualified doctors</p>
+            <h6 style="color:#666666;">We have team of highly qualified doctors</h6>
             <br>
         </div>
         <div class="col-md-12">
@@ -433,9 +433,9 @@
 
  <section class="core-department container" style="margin-top:120px;">
     <div class="row">
-        <div class="col-md-12 text-center">
+        <div class="col-md-12 text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
             <h2 class="text-center"  style="color:#E85D21;">Our Core Specialised Departments</h2>
-            <p class="text-center">We provide world class service with our eminent doctors</p>
+            <h6 class="text-center" style="color:#666666;">We provide world class service with our eminent doctors</h6>
         
         </div>
         
@@ -450,8 +450,6 @@
                 </div>
                </div>
 
-            
-            
             <div class="col" id="knee-div" style="">
                 <div class="deptc-info d-flex align-items-center justify-content-center">
                         <h6>Joint Replacement</h6>
@@ -476,10 +474,10 @@
                    </div>       
             </div>
             <div class="col" style="height:60vh; background-image:url(assets/img/Core-Departments/dialysis.jpg);background-color:green; height:60vh; background-size:cover; background-position:bottom center;">
-            <div class="deptc-info d-flex align-items-center justify-content-center">
-                        <h6>Dialysis</h6>
-                        <img> 
-                </div>  
+                <div class="deptc-info d-flex align-items-center justify-content-center">
+                            <h6>Dialysis</h6>
+                            <img> 
+                    </div>  
                 
             </div>
         </div>
@@ -498,7 +496,7 @@
         <div class="row g-lg-5 g-3">
             <div class="col-md-6">
                 <!-- <h4 class="sec_title">WHO WE ARE</h4> -->
-                <h3 style="color:#E85D21;">Why Choose Sanjeevani Mamta?</h3>
+                <h3 style="color:#E85D21;" class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">Why Choose Sanjeevani Mamta?</h3>
                 <p>
                     We offer a wide range of specialized medical services to address your unique
                     healthcare needs. Our experienced team of physicians, nurses and support
@@ -663,10 +661,10 @@ across the socio-economic spectrum</p>
 <section class="py-3 py-md-5">
   <div class="container">
   <div class="row">
-            <div class="col-xl-6 offset-xl-3  col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+            <div class="col-xl-6 offset-xl-3  col-lg-8 offset-lg-2 col-md-10 offset-md-1 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
                 <div class="section-title style1 text-center mb-40">
                      <h3 style="color:#E85D21;">Whats Happening at Sanjeevani Mamta</h3>
-                     <p class="sub_hdng pt-1">Our News and Events</p>
+                     <h6 class="text-center" style="color:#666666;">Our News and Events</h6>
                 </div>
             </div>
         </div>
@@ -752,7 +750,7 @@ across the socio-economic spectrum</p>
                 data-aos-duration="1200" data-aos-delay="200">
                 <div class="section-title style1 text-center mb-40">
                       <h3 style="color:#E85D21;">Our Patient Stories</h3>
-                    <p class="sub_hdng pt-1">Hear it from our satisfied  patient</p>
+                      <h6 class="text-center" style="color:#666666;">Hear it from our satisfied  patient</h6>
                 </div>
             </div>
         </div>
