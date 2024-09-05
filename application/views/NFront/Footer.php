@@ -18,7 +18,7 @@
         <div class="row pt-100 pb-75 flex-column flex-sm-row flex-wrap gap-0  d-flex text-left">
             <div class="col">
                 <div class=" footer-widget">
-                    <img src="<?php echo base_url();?>assets/img/footer/Logo.png" class="" style="" alt="sanjivani_logo">
+                <img src="<?php echo base_url();?>front/images/sanjeevani-logo.jpg" style="width:250px" alt="sanjivani_logo">
 
                     <div class="mt-1">
                         <h4 style=" color:black; font-weight:bold; font-size:23px;" class="w-sm-20%"><i class="fa fa-eye mt-5"

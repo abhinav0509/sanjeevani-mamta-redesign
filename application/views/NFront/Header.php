@@ -812,7 +812,7 @@ function coninsert()
 				    <div class="container">
                         				<nav class="navbar navbar-expand-md ">
                            <a class="navbar-brand" href="<?php echo base_url();?>" style="margin-left: -12px;">
-                                <img class="logo-light" src="<?php echo base_url();?>front/images/sanjeevani-logo.jpg" style="max-width:150px;">
+                                <img class="logo-light" src="<?php echo base_url();?>front/images/sanjeevani-logo.jpg" style="max-width: 234px;margin-left: -14px;">
                                 
                             </a>
                             <div class="collapse navbar-collapse main-menu-wrap" id="navbarSupportedContent">
