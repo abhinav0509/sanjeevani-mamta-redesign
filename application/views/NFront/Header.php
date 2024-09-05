@@ -757,7 +757,7 @@ function coninsert()
                                         <!--</li>-->
                                         <li>
                                             <span><i class="ri-phone-fill"></i></span>
-                                            <a href="tel:+91 7021487408" style="color: #ffffff;">+91 7021487408</a>
+                                            <a href="tel:+91 7021487408" style="color: #ffffff;">+91 9769097620 / 40</a>
                                         </li>
                                         <li>
                                             <span><i class="ri-map-pin-fill"></i></span>
