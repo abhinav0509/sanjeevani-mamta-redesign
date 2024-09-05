@@ -599,6 +599,58 @@ public function insert_enquiry()
     $mobile=$this->input->post('mobile');
 	$this->load->Model('Insert_mod');
 	$res = $this->Insert_mod->enquiry_insert($data);
+ $op="";
+	$op.="<body style='font-family: Poppins, sans-serif;padding:20px;background: #f1f1f1;'>";
+	$op.="<div style='background-color:#000000;width:80%;max-width:600px;margin-left:auto;margin-right:auto;'>";
+	$op.="<div style='background-color:#ffffff;padding:50px;'>";
+	$op.="<header style='text-align:center;'>";
+	$op.="<img src='https://www.sanjeevanimamtahospital.com/front/images/sanjeevani-logo.jpg' style='width:250px'/>";
+	$op.="<h1>Enquiry </h1>";
+	$op.="</header>";
+	$op.="<hr style='height:5px;background-color: #EA5C1F;border-color: #EA5C1F;'>";
+	$op.="<div>";
+	$op.="<div style='padding:20px 0 50px 0;'>";
+	$op.="<section>";
+	$op.="<h3 style='color:#EA5C1F;'>Hello, you have a new enquiry submission from Sanjeevani Mamta Hospital & Research Centre Website</h3>";
+	$op.="</section>";
+	$op.="<section style='text-align:left;margin-top:50px;'>";
+	$op.="<table style='text-align:left;margin-top:50px;'>";
+	$op.="<tbody style='width: 30%;vertical-align:top;'>";
+	$op.="<tr style='width: 30%;vertical-align:top;'>";
+	$op.="<th style='width: 30%;vertical-align:top;color: #EA5C1F;font-weight:900;display: block;width: 100% !important; padding: 10px;margin:0;'>Name</th>";
+	$op.="<td style='padding: 10px;margin:0;font-weight:100;display: block;width: 100% !important;'>$name</td>";
+	$op.="</tr>";
+	$op.="<tr style='width: 30%;vertical-align:top;'>";
+	$op.="<th style='width: 30%;vertical-align:top;color: #EA5C1F;font-weight:900;display: block;width: 100% !important; padding: 10px;margin:0;'>Email Address</th>";
+	$op.="<td style='padding: 10px;margin:0;font-weight:100;display: block;width: 100% !important;'>$email</td>";
+	$op.="</tr>";
+	$op.="<tr style='width: 30%;vertical-align:top;'>";
+	$op.="<th style='width: 30%;vertical-align:top;color: #EA5C1F;font-weight:900;display: block;width: 100% !important; padding: 10px;margin:0;'>Contact Number</th>";
+	$op.="<td style='padding: 10px;margin:0;font-weight:100;display: block;width: 100% !important;'>$mobile</td>";
+	$op.="</tr>";
+	$op.="<tr style='width: 30%;vertical-align:top;'>";
+	$op.="<th style='width: 30%;vertical-align:top;color: #EA5C1F;font-weight:900;display: block;width: 100% !important; padding: 10px;margin:0;'>Message</th>";
+	$op.="<td style='padding: 10px;margin:0;font-weight:100;display: block;width: 100% !important;'>$message.</td>";
+	$op.="</tr>";
+	$op.="</tbody>";
+	$op.="</table>";
+	$op.="</section>";
+	$op.="</div>";
+	$op.="</div>";
+	$op.="</div>";
+	$op.="<footer style='text-align:center;'>";
+	$op.="<section style='font-size:10px;color:#000000;padding:20px 0;background-color:#ffffff !important;'>";
+	$op.="<img src='https://www.sanjeevanimamtahospital.com/front/images/sanjeevani-logo.jpg' style='width:100px'/>";
+	$op.="<p>";
+	$op.="<a href='https://www.sanjeevanimamtahospital.com/'>sanjeevanimamtahospital.com</a>";
+	$op.="</p>";
+	$op.="<p>11, NITYANAND NAGAR CHS, Sahar Rd, Railway Colony, Andheri East, Mumbai, Maharashtra 400069 (India)</p>";
+	$op.="<p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Maverick Software(I) Pvt Ltd All Rights Reserved</p>";
+	$op.="</section>";
+	$op.="</footer>";
+	$op.="</div>";
+	$op.="</body>";
+
 	if($res)
 	{
 	try{
@@ -610,14 +662,15 @@ public function insert_enquiry()
              $mail->Password = $pass;               // SMTP password
              $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
              $mail->Port = 587;                                    //Set the SMTP port number - 587 for authenticated TLS
-             $mail->setFrom('enquirysmsshospital@gmail.com', 'Sanjeevani Mamta Super Speciality Hospital');     //Set who the message is to be sent from
-             $mail->addAddress('enquirysmsshospital@gmail.com', 'Sanjeevani Mamta Super Speciality Hospital');  // Add a recipient
+             $mail->setFrom('msipl@mavericksoftware.in', 'Sanjeevani Mamta Hospital & Research Centre');     //Set who the message is to be sent from
+             $mail->addAddress('enquirysmsshospital@gmail.com', 'Sanjeevani Mamta Hospital & Research Centre');  // Add a recipient
           
              $mail->WordWrap = 50;                                 // Set word wrap to 50 characters
              $mail->isHTML(true);                                  // Set email format to HTML
           
              $mail->Subject = "Website Enquiry";
-             $mail->Body    = "Name:-  $name<br>Email:-  $email<br>Message:- $message<br>Mobile:- $mobile";
+             $mail->Body    = $op;
+			//  $mail->Body    = "Name:-  $name<br>Email:-  $email<br>Message:- $message<br>Mobile:- $mobile";
              if(!$mail->send()) {
                echo "faild";
              }
@@ -629,14 +682,43 @@ public function insert_enquiry()
        catch(Exception $e){
          print_r($e);
        }
-        $txt  ="<div style='width:90%; height:auto; border:1px solid #CCC; border-top:none;'>";
-			$txt .="<div style='width:100%;height:40px;background-color:#00569D; color:#FFF;'>";
-			$txt .="<p style='padding-left:20px;padding-top:9px;'><b style='font-size:19px;'>Welcome Mail... (Sanjeevani Mamta Super Speciality Hospital)</b></p></div>";
-			$txt .="<div style='width:100%; margin-top:20px; margin-bottom:20px; padding-left:20px;'>";
-			$txt .="Dear Madam/Sir,   <br /> <b>Greeting from Sanjeevani Mamta Super Speciality Hospital.</b>,   <br />We have received your Enquiry.   <br />For appointments, and other detailes please call us at the following numbers- +91 7021487408      <br />Thanking You .";
-			$txt .="</div>";
-			$txt .="<p style='padding-left:20px;'>Team <br> Sanjeevani Mamta Hospital & Research Centre</p>";
-			$txt .="</div>";
+            // $txt  ="<div style='width:90%; height:auto; border:1px solid #CCC; border-top:none;'>";
+			// $txt .="<div style='width:100%;height:40px;background-color:#00569D; color:#FFF;'>";
+			// $txt .="<p style='padding-left:20px;padding-top:9px;'><b style='font-size:19px;'>Welcome Mail... (Sanjeevani Mamta Super Speciality Hospital)</b></p></div>";
+			// $txt .="<div style='width:100%; margin-top:20px; margin-bottom:20px; padding-left:20px;'>";
+			// $txt .="Dear Madam/Sir,   <br /> <b>Greeting from Sanjeevani Mamta Super Speciality Hospital.</b>,   <br />We have received your Enquiry.   <br />For appointments, and other detailes please call us at the following numbers- +91 7021487408      <br />Thanking You .";
+			// $txt .="</div>";
+			// $txt .="<p style='padding-left:20px;'>Team <br> Sanjeevani Mamta Hospital & Research Centre</p>";
+			// $txt .="</div>";
+
+			$op = "<body style='font-family: Poppins, sans-serif;padding:20px;background: #f1f1f1;'>";
+			$op .= "<div style='background-color:#000000;width:80%;max-width:600px;margin-left:auto;margin-right:auto;'>";
+			$op .= "<div style='background-color:#ffffff;padding:50px;'>";
+			$op .= "<header style='text-align:center;'>";
+			$op .= "<img src='https://www.sanjeevanimamtahospital.com/front/images/sanjeevani-logo.jpg' style='width:150px'/>";
+			$op .= "<h2>Sanjeevani Mamta Hospital & Research Centre</h2>";
+			$op .= "</header>";
+			$op .= "<hr style='height:5px;background-color: #EA5C1F;border-color: #EA5C1F;'>";
+			$op .= "<div>";
+			$op .= "<div style='padding:20px 0 50px 0;'>";
+			$op .= "<section>";
+			$op .= "<h3 style='color:#EA5C1F;'>Hello, $name  <br /> <b>Thank you for contacting Sanjeevani Mamta. We have received your query. We will get back to you soon.</h3>";
+			$op .= "</section>";
+			$op .= "<section style='text-align:left;margin-top:50px;'>";
+			$op .= "</section>";
+			$op .= "</div>";
+			$op .= "</div>";
+			$op .= "</div>";
+			$op .= "<footer style='text-align:center;'>";
+			$op .= "<section style='font-size:10px;color:#000000;padding:20px 0;background-color:#ffffff !important;'>";
+			$op .= "<img src='https://www.sanjeevanimamtahospital.com/front/images/sanjeevani-logo.jpg' style='width:100px'/>";
+			$op .= "<p><a href='https://www.sanjeevanimamtahospital.com/'>sanjeevanimamtahospital.com</a></p>";
+			$op .= "<p>11, NITYANAND NAGAR CHS, Sahar Rd, Railway Colony, Andheri East, Mumbai, Maharashtra 400069 (India)</p>";
+			$op .= "<p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Maverick Software(I) Pvt Ltd All Rights Reserved</p>";
+			$op .= "</section>";
+			$op .= "</footer>";
+			$op .= "</div>";
+			$op .= "</body>";
 
 	    $this->load->model('Insert_mod');
 		$res = $this->Insert_mod->enquiry_insert($data);
@@ -651,15 +733,15 @@ public function insert_enquiry()
 			  $mail->Password = $pass;               // SMTP password
 			  $mail->SMTPSecure = 'tls';                            // Enable encryption, 'ssl' also accepted
 			  $mail->Port = 587;                                    //Set the SMTP port number - 587 for authenticated TLS
-			  $mail->setFrom('enquirysmsshospital@gmail.com', 'Sanjeevani Mamta Super Speciality Hospital');     //Set who the message is to be sent from
-			  $mail->addAddress($email, 'Sanjeevani Mamta Super Speciality Hospital');  // Add a recipient
-			  $mail->AddReplyTo('enquirysmsshospital@gmail.com', 'Reply to Sanjeevani Mamta Super Speciality Hospital');
+			  $mail->setFrom('msipl@mavericksoftware.in', 'Sanjeevani Mamta Hospital & Research Centre');     //Set who the message is to be sent from
+			  $mail->addAddress($email, 'Sanjeevani Mamta Hospital & Research Centre');  // Add a recipient
+			  $mail->AddReplyTo('enquirysmsshospital@gmail.com', 'Reply to Sanjeevani Mamta Hospital & Research Centre');
 			  $mail->WordWrap = 50;                                 // Set word wrap to 50 characters
 			  $mail->isHTML(true);                                  // Set email format to HTML
 			  
 
 			  $mail->Subject = "no-reply";
-			  $mail->Body    = $txt;
+			  $mail->Body    = $op;
               $mail->send();
 		      //redirect('welcome/Franchisee_Enq');
 			  
