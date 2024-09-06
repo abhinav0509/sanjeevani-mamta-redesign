@@ -188,6 +188,7 @@
     .who-card .card-img {
         border-radius: 16px;
         height: 500px;
+        border:6px solid #286499;
         
     }
     .bg-image-community{
@@ -234,21 +235,101 @@
     #dept-tile:hover{
         transform: scale3d(1.1, 1.1, 1.1);
     }
-    #knee-div{
-      
+    #joint{
+        z-index:1;
+        position: relative;
         background-color:gray;
         height:60vh;
-        width:20%;
+       
         background-image:url(assets/img/Core-Departments/Knee-Replacement-Surgery.jpg);
         background-repeat:no-repeat;  
         background-size: cover;
         background-position:right center;
         overflow:hidden;
+        border-radius: 16px;
     }
-    #knee-div:hover{
-        width:80vw;
-        height:
+    #cancer-core{
+      z-index:1;
+      position: relative;
+      border-radius: 16px;
+      background-image:url(assets/img/Core-Departments/Medical-Oncology-01.png);
+    
+      height:60vh; 
+      background-size:cover; 
+      background-repeat:no-repeat;  
+      background-size: cover;
+      background-position:center center;
+      overflow:hidden;
     }
+    #pediatric-core{
+      z-index:1;
+      position: relative;
+      border-radius: 16px;
+      background-image:url(assets/img/Core-Departments/pediatric-surgery-in-india.jpg);
+     
+      height:60vh; 
+      background-size:cover; 
+      background-repeat:no-repeat;  
+      background-size: cover;
+      background-position:bottom center;
+      overflow:hidden;
+    }
+    #ent-core{
+      z-index:1;
+      position: relative;
+      border-radius: 16px;
+      background-image:url(assets/img/Core-Departments/ent-surgery.jpg);
+     
+      height:60vh; 
+      background-size:cover; 
+      background-repeat:no-repeat;  
+      background-size: cover;
+      background-position:center left;
+      overflow:hidden;
+    }
+    #cataract-core{
+      z-index:1;
+      position: relative;
+      border-radius: 16px;
+      background-image:url(assets/img/Core-Departments/cataract-2.jpg);
+    
+      height:60vh; 
+      background-size:cover; 
+      background-repeat:no-repeat;  
+      background-size: cover;
+      background-position:bottom center;
+      overflow:hidden;
+    }
+    #dialysis-core{
+      z-index:1;
+      position: relative;
+      border-radius: 16px;
+      background-image:url(assets/img/Core-Departments/dialysis.jpg);
+     
+      height:60vh; 
+      background-size:cover; 
+      background-repeat:no-repeat;  
+      background-size: cover;
+      background-position:bottom center;
+      overflow:hidden;
+    }
+
+    #core-dept-overlay{
+     position:absolute;
+     border-radius: 16px;
+     width:100%;
+     height:60vh;
+     background-color:#E85D21;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     z-index: -1;
+     background-color: rgba(0,0,0,0.5);
+     cursor: pointer;
+    }
+    
+    
 
 
 </style>
@@ -459,41 +540,59 @@
     <div class="container">
         <div class="row">
            
-              <div class="col"  style="background-image:url(assets/img/Core-Departments/cancer-care.jpg);background-color:green; height:60vh; background-size:cover; background-position:bottom center;">
-                <div class="deptc-info d-flex align-items-center justify-content-center">
-                        <h6>Cancer Care</h6>
-                        <img> 
+            <div class="col deptc-info d-flex align-items-center justify-content-center g-4" id="cancer-core"  style="">
+                <div id="core-dept-overlay">
                 </div>
-               </div>
-
-            <div class="col" id="knee-div" style="">
-                <div class="deptc-info d-flex align-items-center justify-content-center">
-                        <h6>Joint Replacement</h6>
-                </div>
+                <div class="" style="color:#fff;">
+                        <h6 style="color:#fff;">Cancer Care</h6>
+                        <p style="color:#fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eveniet totam adipisci, assumenda ad nostrum non minus</p>
+                </div>        
             </div>
-            <div class="col"  style="height:60vh; background-image:url(assets/img/Core-Departments/pediatric-surgery-in-india.jpg);background-color:green; height:60vh; background-size:cover; background-position:bottom center;">
-                <div class="deptc-info d-flex align-items-center justify-content-center">
-                        <h6>Pediatric Orthopedic</h6>
-                        <img> 
+           
+            <div class="col deptc-info d-flex align-items-center justify-content-center" id="joint" style="">
+                    <div id="core-dept-overlay">
+                    </div>
+                    <div class="">
+                            <h6 style="color:#fff;">Joint Replacement</h6>
+                            <p style="color:#fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eveniet totam adipisci, assumenda ad nostrum non minus</p>
+                    </div>
+            </div>
+          
+            <div class="col deptc-info d-flex align-items-center justify-content-center g-4" id="pediatric-core" style="">
+                <div id="core-dept-overlay">
+                </div>
+                <div class="">
+                        <h6 style="color:#fff;">Pediatric Orthopedic</h6>
+                        <p style="color:#fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eveniet totam adipisci, assumenda ad nostrum non minus</p>
+                        
                 </div>    
            </div>
-            <div class="col" style="height:60vh; background-image:url(assets/img/Core-Departments/ent-surgery.jpg);background-color:green; height:60vh; background-size:cover; background-position:left center;">
-                <div class="deptc-info d-flex align-items-center justify-content-center">
-                                <h6>ENT Surgeries</h6>
-                                <img src=""> 
+            <div class="col deptc-info d-flex align-items-center justify-content-center" id="ent-core" style="">
+                <div id="core-dept-overlay">
+                </div>
+                <div class="">
+                    <h6 style="color:#fff;">ENT Surgeries</h6>
+                    <p style="color:#fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eveniet totam adipisci, assumenda ad nostrum non minus</p>
+                               
                 </div>    
             </div>
-            <div class="col" style="height:60vh; background-image:url(assets/img/Core-Departments/cataract-2.jpg);background-color:green; height:60vh; background-size:cover; background-position:bottom center; ">
-                    <div class="deptc-info d-flex align-items-center justify-content-center">
-                                <h6>Cataract Surgeries</h6>
-                                <img> 
+            <div class="col deptc-info d-flex align-items-center justify-content-center g-4" id="cataract-core" style="">
+            <div id="core-dept-overlay">
+            </div>
+                    <div class="">
+                                <h6 style="color:#fff;">Cataract Surgeries</h6>
+                                <p style="color:#fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eveniet totam adipisci, assumenda ad nostrum non minus</p>
+                                
                    </div>       
             </div>
-            <div class="col" style="height:60vh; background-image:url(assets/img/Core-Departments/dialysis.jpg);background-color:green; height:60vh; background-size:cover; background-position:bottom center;">
-                <div class="deptc-info d-flex align-items-center justify-content-center">
-                            <h6>Dialysis</h6>
-                            <img> 
-                    </div>  
+            <div class="col deptc-info d-flex align-items-center justify-content-center" id="dialysis-core" style="">
+                <div id="core-dept-overlay">
+                </div>
+                <div class="">
+                            <h6 style="color:#fff;">Dialysis</h6>
+                            <p style="color:#fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eveniet totam adipisci, assumenda ad nostrum non minus</p>
+                            
+                </div>  
                 
             </div>
         </div>
@@ -600,7 +699,7 @@
 
                     </div>
                     
-                    <img src="assets/img/why-choose-us/patient-care-v1.jpg" class="card-img " alt="...">
+                    <img src="assets/img/why-choose-us/Sanjeevani-Building.jpg" class="card-img " alt="...">
                 </div>
             </div>
           
