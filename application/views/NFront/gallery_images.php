@@ -113,7 +113,7 @@ function changeurl(){
             <?php if(!empty($result)){?>
 				<?php foreach($result as $row){?>
 					<div class="col-md-4 col-sm-3 col-xs-12">
-						<a class="popup-box" data-lightbox="image" href="<?php echo base_url()?>data/uploads/gallery/<?php echo $row['image'];?>">
+						<a class="popup-box" data-lightbox="image" href="<?php echo base_url()?>data/uploads/gallery/<?php echo $row['image'];?>"><br>
 							<img src="<?php echo base_url()?>data/uploads/gallery/<?php echo $row['image'];?>" alt="image" class="popup-box" style="">
 						</a>
 					</div>

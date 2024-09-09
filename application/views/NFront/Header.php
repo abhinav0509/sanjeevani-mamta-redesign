@@ -766,7 +766,7 @@ function coninsert()
                                     </ul>
                                 </div>
                             </div>
-                            <!--<div class="col-lg-4">-->
+                            <!-- <div class="col-lg-4">-->
                             <!--    <div class="header-top-right">-->
                                     <!--<div class="select-lang">-->
                                     <!--    <i class="ri-earth-fill"></i>-->
@@ -802,7 +802,7 @@ function coninsert()
                                     <!--    </li>-->
                                     <!--</ul>-->
                             <!--    </div>-->
-                            <!--</div>-->
+                            <!--</div> -->
                         </div>
                     </div>
                 </div>

@@ -90,7 +90,7 @@ function getVal1(val){
                      <?php if(!empty($result)){?>
 				       <?php foreach($result as $row){?>
 
-                        <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector profileoptions">
+                        <div class="col-md-4 col-sm-6 col-xs-12 isotopeSelector profileoptions">
 
                               <div class="blog-card style2">
 
