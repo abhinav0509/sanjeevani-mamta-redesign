@@ -171,7 +171,7 @@
         
         border-radius: 16px;
         position: relative;
-        z-index: 9999;
+        z-index: 10;
     }
 
     .who-card-overlay{
@@ -239,13 +239,11 @@
         z-index:1;
         position: relative;
         background-color:gray;
-        height:60vh;
-       
         background-image:url(assets/img/Core-Departments/Knee-Replacement-Surgery.jpg);
         background-repeat:no-repeat;  
         background-size: cover;
         background-position:right center;
-        overflow:hidden;
+       
         border-radius: 16px;
     }
     #cancer-core{
@@ -253,72 +251,61 @@
       position: relative;
       border-radius: 16px;
       background-image:url(assets/img/Core-Departments/Medical-Oncology-01.png);
-    
-      height:60vh; 
       background-size:cover; 
       background-repeat:no-repeat;  
       background-size: cover;
       background-position:center center;
-      overflow:hidden;
+    
     }
     #pediatric-core{
       z-index:1;
       position: relative;
       border-radius: 16px;
       background-image:url(assets/img/Core-Departments/pediatric-surgery-in-india.jpg);
-     
-      height:60vh; 
       background-size:cover; 
       background-repeat:no-repeat;  
       background-size: cover;
       background-position:bottom center;
-      overflow:hidden;
+      
     }
     #ent-core{
       z-index:1;
       position: relative;
       border-radius: 16px;
       background-image:url(assets/img/Core-Departments/ent-surgery.jpg);
-     
-      height:60vh; 
-      background-size:cover; 
+     background-size:cover; 
       background-repeat:no-repeat;  
       background-size: cover;
       background-position:center left;
-      overflow:hidden;
+      
     }
     #cataract-core{
       z-index:1;
       position: relative;
       border-radius: 16px;
       background-image:url(assets/img/Core-Departments/cataract-2.jpg);
-    
-      height:60vh; 
       background-size:cover; 
       background-repeat:no-repeat;  
       background-size: cover;
       background-position:bottom center;
-      overflow:hidden;
+      
     }
     #dialysis-core{
       z-index:1;
       position: relative;
       border-radius: 16px;
       background-image:url(assets/img/Core-Departments/dialysis.jpg);
-     
-      height:60vh; 
       background-size:cover; 
       background-repeat:no-repeat;  
       background-size: cover;
       background-position:bottom center;
-      overflow:hidden;
+      
     }
 
     #core-dept-overlay{
      position:absolute;
      border-radius: 16px;
      width:100%;
-     height:60vh;
      background-color:#E85D21;
      top: 0;
      left: 0;
@@ -538,59 +525,61 @@
         
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row d-flex align-items-center justify-content-center" style="gap:5px;">
            
-            <div class="col deptc-info d-flex align-items-center justify-content-center g-4" id="cancer-core"  style="">
-                <div id="core-dept-overlay">
+            <div class="col-sm-5 col-md-3 col-lg-4 deptc-info d-flex align-items-center justify-content-center p-4" id="cancer-core"  style="">
+                <div class="container" id="core-dept-overlay">
                 </div>
                 <div class="" style="color:#fff;">
                         <h6 style="color:#fff;">Cancer Care</h6>
-                        <p style="color:#fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eveniet totam adipisci, assumenda ad nostrum non minus</p>
+                        <p style="color:#fff;">Our dedicated Cancer-Oncology and Oncosurgery department is committed to providing comprehensive and compassionate care to those affected by cancer. We bring together a multidisciplinary team of experts, cutting-edge technology, and personalized treatment plans to offer the best possible outcomes for our patients.</p>
                 </div>        
             </div>
            
-            <div class="col deptc-info d-flex align-items-center justify-content-center" id="joint" style="">
+            <div class="col-sm-5 col-md-3 col-lg-4 deptc-info d-flex align-items-center justify-content-center p-4" id="joint" style="">
                     <div id="core-dept-overlay">
                     </div>
                     <div class="">
                             <h6 style="color:#fff;">Joint Replacement</h6>
-                            <p style="color:#fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eveniet totam adipisci, assumenda ad nostrum non minus</p>
+                            <p style="color:#fff;">We pride ourselves on our ability to handle complex cases, particularly in the areas of joint replacements and spinal surgeries, including primary, complex, and revision procedures.
+
+At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, ensuring that our patients receive the highest quality treatment</p>
                     </div>
             </div>
           
-            <div class="col deptc-info d-flex align-items-center justify-content-center g-4" id="pediatric-core" style="">
+            <div class="col-sm-5 col-md-3 col-lg-4 deptc-info d-flex align-items-center justify-content-center p-4 " id="pediatric-core" style="">
                 <div id="core-dept-overlay">
                 </div>
                 <div class="">
                         <h6 style="color:#fff;">Pediatric Orthopedic</h6>
-                        <p style="color:#fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eveniet totam adipisci, assumenda ad nostrum non minus</p>
+                        <p style="color:#fff;">we specialize in pediatric orthopedic surgeries with a commitment to compassionate, expert care. Our skilled team provides advanced treatments for bone, joint, and muscle conditions in children, ensuring the highest standards of safety and comfort. Trust us to guide your child towards a healthier, more active future with personalized, cutting-edge solutions.</p>
                         
                 </div>    
            </div>
-            <div class="col deptc-info d-flex align-items-center justify-content-center" id="ent-core" style="">
+            <div class="col-sm-5 col-md-3 col-lg-4 deptc-info d-flex align-items-center justify-content-center p-4" id="ent-core" style="">
                 <div id="core-dept-overlay">
                 </div>
                 <div class="">
                     <h6 style="color:#fff;">ENT Surgeries</h6>
-                    <p style="color:#fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eveniet totam adipisci, assumenda ad nostrum non minus</p>
+                    <p style="color:#fff;">we excel in ENT surgeries, offering expert care for ear, nose, and throat conditions. Our dedicated team uses advanced techniques to ensure precise diagnoses and effective treatments. From routine procedures to complex surgeries, we prioritize your comfort and recovery. Trust us for personalized care and a commitment to restoring your quality of life.</p>
                                
                 </div>    
             </div>
-            <div class="col deptc-info d-flex align-items-center justify-content-center g-4" id="cataract-core" style="">
+            <div class="col-sm-5 col-md-3 col-lg-4 deptc-info d-flex align-items-center justify-content-center p-4" id="cataract-core" style="">
             <div id="core-dept-overlay">
             </div>
                     <div class="">
                                 <h6 style="color:#fff;">Cataract Surgeries</h6>
-                                <p style="color:#fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eveniet totam adipisci, assumenda ad nostrum non minus</p>
+                                <p style="color:#fff;"> we specialize in cataract surgeries with a focus on restoring clear vision and enhancing your quality of life. Our expert team uses the latest technology and techniques to ensure precise, effective treatment. With personalized care and a commitment to your comfort, we guide you through every step towards brighter, clearer vision. </p>
                                 
                    </div>       
             </div>
-            <div class="col deptc-info d-flex align-items-center justify-content-center" id="dialysis-core" style="">
+            <div class="col-sm-5 col-md-3 col-lg-4 deptc-info d-flex align-items-center justify-content-center p-4" id="dialysis-core" style="">
                 <div id="core-dept-overlay">
                 </div>
                 <div class="">
                             <h6 style="color:#fff;">Dialysis</h6>
-                            <p style="color:#fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eveniet totam adipisci, assumenda ad nostrum non minus</p>
+                            <p style="color:#fff;">we provide expert dialysis services with a focus on compassionate care and advanced technology. Our dedicated team ensures effective treatment and personalized support for individuals with kidney concerns. With state-of-the-art equipment and a patient-centered approach, we aim to enhance your quality of life.</p>
                             
                 </div>  
                 
