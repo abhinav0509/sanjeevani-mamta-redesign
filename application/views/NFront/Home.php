@@ -171,7 +171,7 @@
         
         border-radius: 16px;
         position: relative;
-        z-index: 9999;
+        z-index: 10;
     }
 
     .who-card-overlay{
@@ -188,6 +188,7 @@
     .who-card .card-img {
         border-radius: 16px;
         height: 500px;
+        border:6px solid #286499;
         
     }
     .bg-image-community{
@@ -234,21 +235,88 @@
     #dept-tile:hover{
         transform: scale3d(1.1, 1.1, 1.1);
     }
-    #knee-div{
-      
+    #joint{
+        z-index:1;
+        position: relative;
         background-color:gray;
-        height:60vh;
-        width:20%;
         background-image:url(assets/img/Core-Departments/Knee-Replacement-Surgery.jpg);
         background-repeat:no-repeat;  
         background-size: cover;
         background-position:right center;
-        overflow:hidden;
+       
+        border-radius: 16px;
     }
-    #knee-div:hover{
-        width:80vw;
-        height:
+    #cancer-core{
+      z-index:1;
+      position: relative;
+      border-radius: 16px;
+      background-image:url(assets/img/Core-Departments/Medical-Oncology-01.png);
+      background-size:cover; 
+      background-repeat:no-repeat;  
+      background-size: cover;
+      background-position:center center;
+    
     }
+    #pediatric-core{
+      z-index:1;
+      position: relative;
+      border-radius: 16px;
+      background-image:url(assets/img/Core-Departments/pediatric-surgery-in-india.jpg);
+      background-size:cover; 
+      background-repeat:no-repeat;  
+      background-size: cover;
+      background-position:bottom center;
+      
+    }
+    #ent-core{
+      z-index:1;
+      position: relative;
+      border-radius: 16px;
+      background-image:url(assets/img/Core-Departments/ent-surgery.jpg);
+     background-size:cover; 
+      background-repeat:no-repeat;  
+      background-size: cover;
+      background-position:center left;
+      
+    }
+    #cataract-core{
+      z-index:1;
+      position: relative;
+      border-radius: 16px;
+      background-image:url(assets/img/Core-Departments/cataract-2.jpg);
+      background-size:cover; 
+      background-repeat:no-repeat;  
+      background-size: cover;
+      background-position:bottom center;
+      
+    }
+    #dialysis-core{
+      z-index:1;
+      position: relative;
+      border-radius: 16px;
+      background-image:url(assets/img/Core-Departments/dialysis.jpg);
+      background-size:cover; 
+      background-repeat:no-repeat;  
+      background-size: cover;
+      background-position:bottom center;
+      
+    }
+
+    #core-dept-overlay{
+     position:absolute;
+     border-radius: 16px;
+     width:100%;
+     background-color:#E85D21;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     z-index: -1;
+     background-color: rgba(255,255,255,0.7);
+     cursor: pointer;
+    }
+    
+    
 
 
 </style>
@@ -457,43 +525,63 @@
         
     </div>
     <div class="container">
-        <div class="row">
+        <div class="row d-flex align-items-center justify-content-center" style="gap:5px;">
            
-              <div class="col"  style="background-image:url(assets/img/Core-Departments/cancer-care.jpg);background-color:green; height:60vh; background-size:cover; background-position:bottom center;">
-                <div class="deptc-info d-flex align-items-center justify-content-center">
-                        <h6>Cancer Care</h6>
-                        <img> 
+            <div class="col-sm-5 col-md-3 col-lg-4 deptc-info d-flex align-items-center justify-content-center p-4" id="cancer-core"  style="">
+                <div class="container" id="core-dept-overlay">
                 </div>
-               </div>
-
-            <div class="col" id="knee-div" style="">
-                <div class="deptc-info d-flex align-items-center justify-content-center">
-                        <h6>Joint Replacement</h6>
-                </div>
+                <div class="" style="color:#fff;">
+                        <h6 style="color:#E85D21">Cancer Care</h6>
+                        <p style="color:#000;">Our dedicated Cancer-Oncology and Oncosurgery department is committed to providing comprehensive and compassionate care to those affected by cancer. We bring together a multidisciplinary team of experts, cutting-edge technology, and personalized treatment plans to offer the best possible outcomes for our patients.</p>
+                </div>        
             </div>
-            <div class="col"  style="height:60vh; background-image:url(assets/img/Core-Departments/pediatric-surgery-in-india.jpg);background-color:green; height:60vh; background-size:cover; background-position:bottom center;">
-                <div class="deptc-info d-flex align-items-center justify-content-center">
-                        <h6>Pediatric Orthopedic</h6>
-                        <img> 
+           
+            <div class="col-sm-5 col-md-3 col-lg-4 deptc-info d-flex align-items-center justify-content-center p-4" id="joint" style="">
+                    <div id="core-dept-overlay">
+                    </div>
+                    <div class="">
+                            <h6 style="color:#E85D21;">Joint Replacement</h6>
+                            <p style="color:#000;">We pride ourselves on our ability to handle complex cases, particularly in the areas of joint replacements and spinal surgeries, including primary, complex, and revision procedures.
+
+At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, ensuring that our patients receive the highest quality treatment</p>
+                    </div>
+            </div>
+          
+            <div class="col-sm-5 col-md-3 col-lg-4 deptc-info d-flex align-items-center justify-content-center p-4 " id="pediatric-core" style="">
+                <div id="core-dept-overlay">
+                </div>
+                <div class="">
+                        <h6 style="color:#E85D21;">Pediatric Orthopedic</h6>
+                        <p style="color:#000;">we specialize in pediatric orthopedic surgeries with a commitment to compassionate, expert care. Our skilled team provides advanced treatments for bone, joint, and muscle conditions in children, ensuring the highest standards of safety and comfort. Trust us to guide your child towards a healthier, more active future with personalized, cutting-edge solutions.</p>
+                        
                 </div>    
            </div>
-            <div class="col" style="height:60vh; background-image:url(assets/img/Core-Departments/ent-surgery.jpg);background-color:green; height:60vh; background-size:cover; background-position:left center;">
-                <div class="deptc-info d-flex align-items-center justify-content-center">
-                                <h6>ENT Surgeries</h6>
-                                <img src=""> 
+            <div class="col-sm-5 col-md-3 col-lg-4 deptc-info d-flex align-items-center justify-content-center p-4" id="ent-core" style="">
+                <div id="core-dept-overlay">
+                </div>
+                <div class="">
+                    <h6 style="color:#E85D21;">ENT Surgeries</h6>
+                    <p style="color:#000;">we excel in ENT surgeries, offering expert care for ear, nose, and throat conditions. Our dedicated team uses advanced techniques to ensure precise diagnoses and effective treatments. From routine procedures to complex surgeries, we prioritize your comfort and recovery. Trust us for personalized care and a commitment to restoring your quality of life.</p>
+                               
                 </div>    
             </div>
-            <div class="col" style="height:60vh; background-image:url(assets/img/Core-Departments/cataract-2.jpg);background-color:green; height:60vh; background-size:cover; background-position:bottom center; ">
-                    <div class="deptc-info d-flex align-items-center justify-content-center">
-                                <h6>Cataract Surgeries</h6>
-                                <img> 
+            <div class="col-sm-5 col-md-3 col-lg-4 deptc-info d-flex align-items-center justify-content-center p-4" id="cataract-core" style="">
+            <div id="core-dept-overlay">
+            </div>
+                    <div class="">
+                                <h6 style="color:#E85D21;">Cataract Surgeries</h6>
+                                <p style="color:#000;"> we specialize in cataract surgeries with a focus on restoring clear vision and enhancing your quality of life. Our expert team uses the latest technology and techniques to ensure precise, effective treatment. With personalized care and a commitment to your comfort, we guide you through every step towards brighter, clearer vision. </p>
+                                
                    </div>       
             </div>
-            <div class="col" style="height:60vh; background-image:url(assets/img/Core-Departments/dialysis.jpg);background-color:green; height:60vh; background-size:cover; background-position:bottom center;">
-                <div class="deptc-info d-flex align-items-center justify-content-center">
-                            <h6>Dialysis</h6>
-                            <img> 
-                    </div>  
+            <div class="col-sm-5 col-md-3 col-lg-4 deptc-info d-flex align-items-center justify-content-center p-4" id="dialysis-core" style="">
+                <div id="core-dept-overlay">
+                </div>
+                <div class="">
+                            <h6 style="color:#E85D21">Dialysis</h6>
+                            <p style="color:#000;">we provide expert dialysis services with a focus on compassionate care and advanced technology. Our dedicated team ensures effective treatment and personalized support for individuals with kidney concerns. With state-of-the-art equipment and a patient-centered approach, we aim to enhance your quality of life.</p>
+                            
+                </div>  
                 
             </div>
         </div>
@@ -600,7 +688,7 @@
 
                     </div>
                     
-                    <img src="assets/img/why-choose-us/patient-care-v1.jpg" class="card-img " alt="...">
+                    <img src="assets/img/why-choose-us/Sanjeevani-Building.jpg" class="card-img " alt="...">
                 </div>
             </div>
           
