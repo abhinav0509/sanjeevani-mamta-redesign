@@ -11,7 +11,7 @@
  </style>
 
 <footer class="object-fit-cover footer-wrap  " id="" style="
-  background-image: url(<?php echo base_url();?>assets/img/footer/sanjeevani-footer-v2.jpg); background-size:cover">
+  background-image: url(<?php echo base_url();?>assets/img/footer/Footer-v3-bg.jpg); background-size:cover">
 
     <!-- ,#E85D21 -->
     <div class="container">

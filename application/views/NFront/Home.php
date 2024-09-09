@@ -183,12 +183,15 @@
         height: 500px;
         border-radius: 16px;
         z-index: -22;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        
     }
 
     .who-card .card-img {
         border-radius: 16px;
         height: 500px;
         border:6px solid #286499;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         
     }
     .bg-image-community{
@@ -243,7 +246,7 @@
         background-repeat:no-repeat;  
         background-size: cover;
         background-position:right center;
-       
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: 16px;
     }
     #cancer-core{
@@ -255,6 +258,7 @@
       background-repeat:no-repeat;  
       background-size: cover;
       background-position:center center;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
     }
     #pediatric-core{
@@ -266,6 +270,7 @@
       background-repeat:no-repeat;  
       background-size: cover;
       background-position:bottom center;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       
     }
     #ent-core{
@@ -277,6 +282,7 @@
       background-repeat:no-repeat;  
       background-size: cover;
       background-position:center left;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       
     }
     #cataract-core{
@@ -288,6 +294,7 @@
       background-repeat:no-repeat;  
       background-size: cover;
       background-position:bottom center;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       
     }
     #dialysis-core{
@@ -299,6 +306,7 @@
       background-repeat:no-repeat;  
       background-size: cover;
       background-position:bottom center;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       
     }
 
@@ -552,7 +560,7 @@ At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, e
                 </div>
                 <div class="">
                         <h6 style="color:#E85D21;">Pediatric Orthopedic</h6>
-                        <p style="color:#000;">we specialize in pediatric orthopedic surgeries with a commitment to compassionate, expert care. Our skilled team provides advanced treatments for bone, joint, and muscle conditions in children, ensuring the highest standards of safety and comfort. Trust us to guide your child towards a healthier, more active future with personalized, cutting-edge solutions.</p>
+                        <p style="color:#000;">We specialize in pediatric orthopedic surgeries with a commitment to compassionate, expert care. Our skilled team provides advanced treatments for bone, joint, and muscle conditions in children, ensuring the highest standards of safety and comfort. Trust us to guide your child towards a healthier, more active future with personalized, cutting-edge solutions.</p>
                         
                 </div>    
            </div>
@@ -561,7 +569,7 @@ At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, e
                 </div>
                 <div class="">
                     <h6 style="color:#E85D21;">ENT Surgeries</h6>
-                    <p style="color:#000;">we excel in ENT surgeries, offering expert care for ear, nose, and throat conditions. Our dedicated team uses advanced techniques to ensure precise diagnoses and effective treatments. From routine procedures to complex surgeries, we prioritize your comfort and recovery. Trust us for personalized care and a commitment to restoring your quality of life.</p>
+                    <p style="color:#000;">We excel in ENT surgeries, offering expert care for ear, nose, and throat conditions. Our dedicated team uses advanced techniques to ensure precise diagnoses and effective treatments. From routine procedures to complex surgeries, we prioritize your comfort and recovery. Trust us for personalized care and a commitment to restoring your quality of life.</p>
                                
                 </div>    
             </div>
@@ -570,7 +578,7 @@ At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, e
             </div>
                     <div class="">
                                 <h6 style="color:#E85D21;">Cataract Surgeries</h6>
-                                <p style="color:#000;"> we specialize in cataract surgeries with a focus on restoring clear vision and enhancing your quality of life. Our expert team uses the latest technology and techniques to ensure precise, effective treatment. With personalized care and a commitment to your comfort, we guide you through every step towards brighter, clearer vision. </p>
+                                <p style="color:#000;"> We specialize in cataract surgeries with a focus on restoring clear vision and enhancing your quality of life. Our expert team uses the latest technology and techniques to ensure precise, effective treatment. With personalized care and a commitment to your comfort, we guide you through every step towards brighter, clearer vision. </p>
                                 
                    </div>       
             </div>
@@ -579,7 +587,7 @@ At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, e
                 </div>
                 <div class="">
                             <h6 style="color:#E85D21">Dialysis</h6>
-                            <p style="color:#000;">we provide expert dialysis services with a focus on compassionate care and advanced technology. Our dedicated team ensures effective treatment and personalized support for individuals with kidney concerns. With state-of-the-art equipment and a patient-centered approach, we aim to enhance your quality of life.</p>
+                            <p style="color:#000;">We provide expert dialysis services with a focus on compassionate care and advanced technology. Our dedicated team ensures effective treatment and personalized support for individuals with kidney concerns. With state-of-the-art equipment and a patient-centered approach, we aim to enhance your quality of life.</p>
                             
                 </div>  
                 
@@ -693,7 +701,7 @@ At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, e
             </div>
           
         </div>
-         <a href="https://www.sanjeevanimamtahospital.com/index.php/SMSSH"<button id="viewmore-btn" class="btn text-center mt-20 col-sm-4 col-md-4 col-lg-2"
+         <a href="https://www.sanjeevanimamtahospital.com/index.php/SMSSH"><button id="viewmore-btn" class="btn text-center mt-40 col-sm-4 col-md-4 col-lg-2"
                             style="background-color:#fff; color:#000; padding:16px;">VIEW MORE</button></a>
 
 
@@ -926,46 +934,6 @@ across the socio-economic spectrum</p>
     };
 </script>
 <script>
-        $( document ).ready(function() {
-    console.log( "ready!" );
-    let counter = 1;
-        function doctors_counter() {
-            document.getElementById("doctorsCounter-why_ah_sec").textContent = counter;
-
-            counter = counter + 1;
-            if (counter <= 50) {
-                setTimeout(doctors_counter, 100);
-
-            }
-            // console.log("doctors="+counter);
-
-        }
-        doctors_counter();
-
-
-        let insurance = 1
-        function insurancePartners() {
-            document.getElementById("insuranceCounter-why_ah_sec").textContent = insurance;
-            insurance++;
-            if (insurance <= 40) {
-                setTimeout(insurancePartners, 100);
-            }
-            // console.log("insurance=" +insurance);
-        }
-        insurancePartners();
-
-
-
-        let bedcounter = 1
-        function bedCount() {
-            document.getElementById("ICUbedsCounter-why_ah_sec").textContent = bedcounter;
-            bedcounter++;
-            if (bedcounter <= 8) {
-                setTimeout(bedCount, 200);
-            }
-              //  console.log("ICU-Beds = "+bedcounter);
-}
- bedCount();
-});
+        
 
 </script>

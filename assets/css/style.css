@@ -1,32 +1,4 @@
-/*-----------------------------------------------------------
-    Theme Name: Teli
-    Theme URI: 
-    Description: Teli - Digital Healthcare Services HTML Template
-    Author: HiboTheme
-    Author URI: https://hibotheme.com/
-    Version: 1.0
--------------------------------------------------------------*/
-/*--------------------------------
-     =====Table Of Contents====
 
-1.  General Styles 
-2.  Mixins CSS
-3.  Back To Top Button CSS
-4.  Preloader CSS
-5.  Button & Link CSS
-6.  Section Title & Overlay & Shape CSS
-7.  Social Link CSS
-8.  Pagination CSS
-9.  Sidebar CSS
-     - Search Box Widget
-     - Taglist Widget
-     - Category Widget
-     - Filter Search Widget
-     - New Arrival Product Widget
-     - Popular Post Widget
-10. Sign In CSS
-11. FAQ Terms & Conditions
-----------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 /*---------------------------------
             General Styles 
