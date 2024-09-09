@@ -312,7 +312,7 @@
      right: 0;
      bottom: 0;
      z-index: -1;
-     background-color: rgba(0,0,0,0.5);
+     background-color: rgba(255,255,255,0.7);
      cursor: pointer;
     }
     
@@ -531,8 +531,8 @@
                 <div class="container" id="core-dept-overlay">
                 </div>
                 <div class="" style="color:#fff;">
-                        <h6 style="color:#fff;">Cancer Care</h6>
-                        <p style="color:#fff;">Our dedicated Cancer-Oncology and Oncosurgery department is committed to providing comprehensive and compassionate care to those affected by cancer. We bring together a multidisciplinary team of experts, cutting-edge technology, and personalized treatment plans to offer the best possible outcomes for our patients.</p>
+                        <h6 style="color:#E85D21">Cancer Care</h6>
+                        <p style="color:#000;">Our dedicated Cancer-Oncology and Oncosurgery department is committed to providing comprehensive and compassionate care to those affected by cancer. We bring together a multidisciplinary team of experts, cutting-edge technology, and personalized treatment plans to offer the best possible outcomes for our patients.</p>
                 </div>        
             </div>
            
@@ -540,8 +540,8 @@
                     <div id="core-dept-overlay">
                     </div>
                     <div class="">
-                            <h6 style="color:#fff;">Joint Replacement</h6>
-                            <p style="color:#fff;">We pride ourselves on our ability to handle complex cases, particularly in the areas of joint replacements and spinal surgeries, including primary, complex, and revision procedures.
+                            <h6 style="color:#E85D21;">Joint Replacement</h6>
+                            <p style="color:#000;">We pride ourselves on our ability to handle complex cases, particularly in the areas of joint replacements and spinal surgeries, including primary, complex, and revision procedures.
 
 At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, ensuring that our patients receive the highest quality treatment</p>
                     </div>
@@ -551,8 +551,8 @@ At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, e
                 <div id="core-dept-overlay">
                 </div>
                 <div class="">
-                        <h6 style="color:#fff;">Pediatric Orthopedic</h6>
-                        <p style="color:#fff;">we specialize in pediatric orthopedic surgeries with a commitment to compassionate, expert care. Our skilled team provides advanced treatments for bone, joint, and muscle conditions in children, ensuring the highest standards of safety and comfort. Trust us to guide your child towards a healthier, more active future with personalized, cutting-edge solutions.</p>
+                        <h6 style="color:#E85D21;">Pediatric Orthopedic</h6>
+                        <p style="color:#000;">we specialize in pediatric orthopedic surgeries with a commitment to compassionate, expert care. Our skilled team provides advanced treatments for bone, joint, and muscle conditions in children, ensuring the highest standards of safety and comfort. Trust us to guide your child towards a healthier, more active future with personalized, cutting-edge solutions.</p>
                         
                 </div>    
            </div>
@@ -560,8 +560,8 @@ At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, e
                 <div id="core-dept-overlay">
                 </div>
                 <div class="">
-                    <h6 style="color:#fff;">ENT Surgeries</h6>
-                    <p style="color:#fff;">we excel in ENT surgeries, offering expert care for ear, nose, and throat conditions. Our dedicated team uses advanced techniques to ensure precise diagnoses and effective treatments. From routine procedures to complex surgeries, we prioritize your comfort and recovery. Trust us for personalized care and a commitment to restoring your quality of life.</p>
+                    <h6 style="color:#E85D21;">ENT Surgeries</h6>
+                    <p style="color:#000;">we excel in ENT surgeries, offering expert care for ear, nose, and throat conditions. Our dedicated team uses advanced techniques to ensure precise diagnoses and effective treatments. From routine procedures to complex surgeries, we prioritize your comfort and recovery. Trust us for personalized care and a commitment to restoring your quality of life.</p>
                                
                 </div>    
             </div>
@@ -569,8 +569,8 @@ At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, e
             <div id="core-dept-overlay">
             </div>
                     <div class="">
-                                <h6 style="color:#fff;">Cataract Surgeries</h6>
-                                <p style="color:#fff;"> we specialize in cataract surgeries with a focus on restoring clear vision and enhancing your quality of life. Our expert team uses the latest technology and techniques to ensure precise, effective treatment. With personalized care and a commitment to your comfort, we guide you through every step towards brighter, clearer vision. </p>
+                                <h6 style="color:#E85D21;">Cataract Surgeries</h6>
+                                <p style="color:#000;"> we specialize in cataract surgeries with a focus on restoring clear vision and enhancing your quality of life. Our expert team uses the latest technology and techniques to ensure precise, effective treatment. With personalized care and a commitment to your comfort, we guide you through every step towards brighter, clearer vision. </p>
                                 
                    </div>       
             </div>
@@ -578,8 +578,8 @@ At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, e
                 <div id="core-dept-overlay">
                 </div>
                 <div class="">
-                            <h6 style="color:#fff;">Dialysis</h6>
-                            <p style="color:#fff;">we provide expert dialysis services with a focus on compassionate care and advanced technology. Our dedicated team ensures effective treatment and personalized support for individuals with kidney concerns. With state-of-the-art equipment and a patient-centered approach, we aim to enhance your quality of life.</p>
+                            <h6 style="color:#E85D21">Dialysis</h6>
+                            <p style="color:#000;">we provide expert dialysis services with a focus on compassionate care and advanced technology. Our dedicated team ensures effective treatment and personalized support for individuals with kidney concerns. With state-of-the-art equipment and a patient-centered approach, we aim to enhance your quality of life.</p>
                             
                 </div>  
                 
