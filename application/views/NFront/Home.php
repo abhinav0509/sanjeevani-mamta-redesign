@@ -5,11 +5,13 @@
         list-style: none;
     }
 
+
     .selopt,
     .sub_mnu1 {
         color: black;
         background-color: white;
     }
+
 
     .closePopUp1 {
         position: absolute;
@@ -22,13 +24,16 @@
         border-radius: 100%;
     }
 
+
     .mainContaentAB {
         display: none;
     }
 
+
     .mainContaentAB.inn {
         display: block
     }
+
 
     .popup-box {
         display: none;
@@ -41,6 +46,7 @@
         left: 0;
     }
 
+
     .popup-inner {
         max-width: 300px;
         min-height: 160px;
@@ -52,13 +58,12 @@
         position: relative;
     }
 
-
-
     .popup-msg {
         font-weight: bold;
         color: black;
         padding: 20px 20px 0 20px;
     }
+
 
     .next-step-btn {
         margin: 20px auto 0;
@@ -72,6 +77,7 @@
         cursor: pointer;
     }
 
+
     .transparent-layer {
         position: fixed;
         width: 100%;
@@ -80,20 +86,25 @@
         opacity: 0.3;
         overflow: hidden;
 
+
     }
+
 
     .rating {
         margin-top: -25px;
+
 
     }
     .ratingg {
         margin-top:5px;
         margin-left:30px;
 
+
     }
     #hero-btn-primary {
         margin-right: 16px;
     }
+
 
     .cntus_btn {
         border: 2px solid #007c9d;
@@ -106,6 +117,7 @@
         align-items: center;
         justify-content: space-evenly;
     }
+
 
     .pg_widget {
         background: #fff;
@@ -121,17 +133,21 @@
         /* min-height: 116px; */
     }
 
+
     .pg_widget:hover {
         border: 1px solid #E85D21;
     }
+
 
     #viewmore-btn {
         border: solid 1px #000;
     }
 
+
     #viewmore-btn:hover {
         border: 1px solid #E85D21;
     }
+
 
     .why_ah_sec {
         margin-top: 80px;
@@ -139,9 +155,11 @@
         /* background-color:#F1F6F7; */
     }
 
+
     .why_point img {
         width: 72px;
     }
+
 
     .why_ah_points div {
         font-size: 16px;
@@ -149,7 +167,10 @@
     }
 
 
+
+
     .point_icon {
+
 
         padding: 12px;
         background-color: #fff;
@@ -157,22 +178,27 @@
         border-radius: 9px;
         padding: 12px;
 
+
     }
+
 
     .why_ah_points h4 {
         color: #E85D21;
+
 
         font-weight: 900;
         font-size: 28px;
     }
 
+
     .who-card {
         background-color:#fff;
-        
+       
         border-radius: 16px;
         position: relative;
         z-index: 10;
     }
+
 
     .who-card-overlay{
         position: absolute;
@@ -184,15 +210,15 @@
         border-radius: 16px;
         z-index: -22;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        
     }
+
 
     .who-card .card-img {
         border-radius: 16px;
         height: 500px;
         border:6px solid #286499;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        
+       
     }
     .bg-image-community{
         /* filter: blur(2px);
@@ -200,11 +226,13 @@
      
        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
+
     }
-  
+ 
     .hero-image{
       position: relative;  
     }
+
 
     .svg-animation{
       top:-18%;
@@ -221,7 +249,7 @@
       100%{
          transform: rotate(360deg);
       }
-      
+     
     }
      #hero-image-doctor{
         z-index: 99999;
@@ -229,7 +257,7 @@
     body{
       background-color:#F5F6FA;
      
-    } 
+    }
     .departments{
         position: relative;
         overflow: hidden;
@@ -254,61 +282,62 @@
       position: relative;
       border-radius: 16px;
       background-image:url(assets/img/Core-Departments/Medical-Oncology-01.png);
-      background-size:cover; 
+      background-size:cover;
       background-repeat:no-repeat;  
       background-size: cover;
       background-position:center center;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
+   
     }
     #pediatric-core{
       z-index:1;
       position: relative;
       border-radius: 16px;
       background-image:url(assets/img/Core-Departments/pediatric-surgery-in-india.jpg);
-      background-size:cover; 
+      background-size:cover;
       background-repeat:no-repeat;  
       background-size: cover;
       background-position:bottom center;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      
+     
     }
     #ent-core{
       z-index:1;
       position: relative;
       border-radius: 16px;
       background-image:url(assets/img/Core-Departments/ent-surgery.jpg);
-     background-size:cover; 
+     background-size:cover;
       background-repeat:no-repeat;  
       background-size: cover;
       background-position:center left;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      
+     
     }
     #cataract-core{
       z-index:1;
       position: relative;
       border-radius: 16px;
       background-image:url(assets/img/Core-Departments/cataract-2.jpg);
-      background-size:cover; 
+      background-size:cover;
       background-repeat:no-repeat;  
       background-size: cover;
       background-position:bottom center;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      
+     
     }
     #dialysis-core{
       z-index:1;
       position: relative;
       border-radius: 16px;
       background-image:url(assets/img/Core-Departments/dialysis.jpg);
-      background-size:cover; 
+      background-size:cover;
       background-repeat:no-repeat;  
       background-size: cover;
       background-position:bottom center;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      
+     
     }
+
 
     #core-dept-overlay{
      position:absolute;
@@ -323,15 +352,9 @@
      background-color: rgba(255,255,255,0.7);
      cursor: pointer;
     }
-    
-    
-
-
+   
 </style>
-
-
 <!--Hero Section Start-->
-
 <section class="new-hero container" style="margin-top:150px;">
     <div class="row">
         <h6 class="text-primary">A Hub For Clinical Excellence</h5>
@@ -376,10 +399,12 @@
                 </div>
                 <img class="img-fluid" id="hero-image-doctor" src="assets/img/hero/doctor-hero.png" alt="hero-image-doctor">
 
+
             </div>
     </div>
 </section>
 <!-- Hero Section End -->
+
 
 <!--Departments Intro Section Start-->
 <section class="container departments" style="margin-top:120px;">
@@ -395,10 +420,8 @@
         <div class="col-md-12">
             <div class="text-center pt-lg-0 pt-4">
                 <div class="row justify-content-center">
-
                     <div class="col-md-12">
                         <div class="row row-cols-3 row-cols-lg-5 g-2 g-lg-4">
-                        
                             <div class="col" id="dept-tile">
                                 <a href="https://www.sanjeevanimamtahospital.com/index.php/SingleDept/Cancer%20-%20Oncology" class="pg_widget" id="COE_Oncology">
                                     <img src="assets/img/Dept/Icons/oncology_icon.svg"
@@ -406,7 +429,7 @@
                                     <h5>Cancer Care</h5>
                                 </a>
                             </div>
-                            
+                           
                             <div class="col" id="dept-tile">
                                 <a href="https://www.sanjeevanimamtahospital.com/index.php/SingleDept/Orthopaedics" class="pg_widget" id="COE_Orthopaedic">
                                     <img src="assets/img/Dept/Icons/Orthopaedic.svg"
@@ -449,7 +472,6 @@
                                     <h5>ENT</h5>
                                 </a>
                             </div>
-
 
                             <div class="col" id="dept-tile">
                                 <a href="https://www.sanjeevanimamtahospital.com/index.php/SingleDept/Neurology" class="pg_widget" id="COE_Neurology">
@@ -506,20 +528,16 @@
                                 </a>
                             </div>
                        </div>
-                        
-                            
+                       
                             <a href="https://www.sanjeevanimamtahospital.com/index.php/department"<button id="viewmore-btn" class="btn text-center mt-20 col-sm-4 col-md-4 col-lg-2"
                             style="background-color:#fff; color:#000; padding:16px;">VIEW MORE</button></a>
 
                     </div>
                 </div>
             </div>
-
         </div>
         <!-- End COEs -->
-
     </div>
-
 </section>
 <!-- Core Specialised Departments Start -->
 
@@ -528,9 +546,7 @@
         <div class="col-md-12 text-center aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
             <h2 class="text-center"  style="color:#E85D21;">Our Core Specialised Departments</h2>
             <h6 class="text-center" style="color:#666666;">We provide world class service with our eminent doctors</h6>
-        
         </div>
-        
     </div>
     <div class="container">
         <div class="row d-flex align-items-center justify-content-center" style="gap:5px;">
@@ -551,17 +567,18 @@
                             <h6 style="color:#E85D21;">Joint Replacement</h6>
                             <p style="color:#000;">We pride ourselves on our ability to handle complex cases, particularly in the areas of joint replacements and spinal surgeries, including primary, complex, and revision procedures.
 
+
 At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, ensuring that our patients receive the highest quality treatment</p>
                     </div>
             </div>
-          
+         
             <div class="col-sm-5 col-md-3 col-lg-4 deptc-info d-flex align-items-center justify-content-center p-4 " id="pediatric-core" style="">
                 <div id="core-dept-overlay">
                 </div>
                 <div class="">
                         <h6 style="color:#E85D21;">Pediatric Orthopedic</h6>
                         <p style="color:#000;">We specialize in pediatric orthopedic surgeries with a commitment to compassionate, expert care. Our skilled team provides advanced treatments for bone, joint, and muscle conditions in children, ensuring the highest standards of safety and comfort. Trust us to guide your child towards a healthier, more active future with personalized, cutting-edge solutions.</p>
-                        
+                       
                 </div>    
            </div>
             <div class="col-sm-5 col-md-3 col-lg-4 deptc-info d-flex align-items-center justify-content-center p-4" id="ent-core" style="">
@@ -578,9 +595,9 @@ At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, e
             </div>
                     <div class="">
                                 <h6 style="color:#E85D21;">Cataract Surgeries</h6>
-                                <p style="color:#000;"> We specialize in cataract surgeries with a focus on restoring clear vision and enhancing your quality of life. Our expert team uses the latest technology and techniques to ensure precise, effective treatment. With personalized care and a commitment to your comfort, we guide you through every step towards brighter, clearer vision. </p>
-                                
-                   </div>       
+                                <p style="color:#000;"> We specialize in cataract surgeries with a focus on restoring clear vision and enhancing your quality of life. Our expert team uses the latest technology and techniques to ensure precise, effective treatment. With personalized care we guide you through every step towards brighter, clearer vision. </p>
+                               
+                   </div>      
             </div>
             <div class="col-sm-5 col-md-3 col-lg-4 deptc-info d-flex align-items-center justify-content-center p-4" id="dialysis-core" style="">
                 <div id="core-dept-overlay">
@@ -588,16 +605,12 @@ At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, e
                 <div class="">
                             <h6 style="color:#E85D21">Dialysis</h6>
                             <p style="color:#000;">We provide expert dialysis services with a focus on compassionate care and advanced technology. Our dedicated team ensures effective treatment and personalized support for individuals with kidney concerns. With state-of-the-art equipment and a patient-centered approach, we aim to enhance your quality of life.</p>
-                            
+                           
                 </div>  
-                
             </div>
         </div>
     </div>
-   
-
  </section>
-
 
 <!-- Core Specialised Departments End -->
 
@@ -607,7 +620,6 @@ At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, e
     <div class="container">
         <div class="row g-lg-5 g-3">
             <div class="col-md-6">
-              
                 <h3 style="color:#E85D21;" class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">Why Choose Sanjeevani Mamta?</h3>
                 <p>
                     We offer a wide range of specialized medical services to address your unique
@@ -687,27 +699,18 @@ At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, e
                 </div>
             </div>
             <div class="col-md-6">
-                
-                
                 <div class="card border-0 who-card">
                     <div class="who-card-overlay">
-                   
                   
-
                     </div>
-                    
-                    <img src="assets/img/why-choose-us/Sanjeevani-Building.jpg" class="card-img " alt="...">
+                    <img src="assets/img/why-choose-us/Sanjeevani-Building-min.webp" class="card-img " alt="...">
                 </div>
             </div>
-          
         </div>
-         <a href="https://www.sanjeevanimamtahospital.com/index.php/SMSSH"><button id="viewmore-btn" class="btn text-center mt-40 col-sm-4 col-md-4 col-lg-2"
-                            style="background-color:#fff; color:#000; padding:16px;">VIEW MORE</button></a>
+         <a href="https://www.sanjeevanimamtahospital.com/index.php/SMSSH"<button id="viewmore-btn" class="btn text-center mt-20 col-sm-4 col-md-4 col-lg-2"
+         style="background-color:#fff; color:#000; padding:16px;">VIEW MORE</button></a>
 
-
-        
     </div>
-   
 </section>
 
 <!--Why Choose Us Section End-->
@@ -719,10 +722,9 @@ At Sanjeevani Mamta Hospital, we offer a holistic approach to orthopedic care, e
             <div class="col">
                 <div class="row">
                     <div class="col p-2" style="width:376px; height: 300px; background-image: url(assets/img/community/sanjevani-camp1.png); background-repeat: no-repeat;">
-                     
                     </div>
                     <div class="col p-2" style="width:376px; height: 300px; background-color: #276499;">
-                       <h4 class="text-white text-center fw-bold mt-4">MISSION</h4> 
+                       <h4 class="text-white text-center fw-bold mt-4">MISSION</h4>
                        <p class="text-white p-1">Delivering high quality affordable healthcare in a safe, ethical environment and
                           developing a network of partner hospitals to enable affordable care delivery beyond city
                           limits</p>
@@ -736,12 +738,11 @@ high quality healthcare services to patients
 across the socio-economic spectrum</p>
                     </div>
                     <div class="col p-2" style="width:376px; height: 300px; background-image: url(assets/img/community/sanjeevani-camp2.png); background-repeat: no-repeat;">
-                       
-                      
+                
                     </div>
                 </div>
             </div>
-            
+           
             <div class="col">
                 <div class="row p-2">
                    <h3 style="color: #E75D21;">
@@ -750,12 +751,9 @@ across the socio-economic spectrum</p>
                    <p>
                      WE BELIEVE IN MAKING THE WORLD A BETTER PLACE WE RUN VARIOUS MEDICAL CAMPS IN WHICH WE PROVIDE FREE CHECK-UPS TO CHILDREN WOMEN, AND ELDERLY.WE HAVE MOBILE SCREENING VANS WHICH OFFERS EARLY DETECTION OF CANCER THROUGH WHICH WE DO OUR BIT TO RAISE AWARNESS FOR CANCER.
                    </p>
-                       
-
                     <a href="https://www.sanjeevanimamtahospital.com/index.php/campdetails"<button id="secondary-btn" class="col-sm-10 col-md-10 col-lg-5 btn btn-primary"
                                 style="background-color:#fff; border:1px solid #286499; color:#286499;">Know More</button></a>
                 </div>
-             
                 <div class="row p-2 d-flex gap-4">
                      <a href="<?php echo base_url();?>index.php/CSR"><div class="bg-image-community col d-flex justify-content-center align-items-center" style="width:224px; height:310px; color:#fff; background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(assets/img/community/community-kids2.png); border-radius: 20px;">
                         <h4 class="text-white">CSR</h4></a>
@@ -786,9 +784,8 @@ across the socio-economic spectrum</p>
             </div>
         </div>
   </div>
-  
   <div class="container overflow-hidden">
-  <?php if(!empty($news)){?> 
+  <?php if(!empty($news)){?>
     <div class="row gy-4 gy-lg-0">
     <?php $ij=1; foreach($news as $nw){?>
       <div class="col-12 col-lg-4">
@@ -828,11 +825,11 @@ across the socio-economic spectrum</p>
                       <path d="M6.5 7a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-9 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm3 0a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
                     </svg>
                     <?php if($nw['update_date']!="")
-                        			  {
-                        				$mon = date("M Y", strtotime($nw['update_date'])); $dt = date("j", strtotime($nw['update_date']));
-                        			  }
-                        			  else{
-                        			  $mon = date("M Y", strtotime($nw['insert_date'])); $dt = date("j", strtotime($nw['insert_date'])); }?>
+                                      {
+                                        $mon = date("M Y", strtotime($nw['update_date'])); $dt = date("j", strtotime($nw['update_date']));
+                                      }
+                                      else{
+                                      $mon = date("M Y", strtotime($nw['insert_date'])); $dt = date("j", strtotime($nw['insert_date'])); }?>
                     <span class="ms-2 fs-7"><?php echo $dt;?>    <?php echo $mon;?></span>
                   </a>
                 </li>
@@ -840,7 +837,7 @@ across the socio-economic spectrum</p>
                 <!--  <span class="justify-content: space-between"></span>-->
                 <!--</li>-->
                 <li>
-                  <a class="link-secondary text-decoration-none d-flex align-items-center" href="#!">           
+                  <a class="link-secondary text-decoration-none d-flex align-items-center" href="#!">          
                     <span class="ms-2 fs-7"><button id="viewmore-btn" class="btn text-center mt-20 col-sm-4 col-md-4 col-lg-2"
                     style="background-color:#fff; color:#000;width: 167px;top: -8px;">Read More</button></span>
                   </a>
@@ -854,14 +851,12 @@ across the socio-economic spectrum</p>
     </div>
     <?php } else{?>
     <code>Coming Soon!!..</code>
-		<?php }?>
+        <?php }?>
   </div>
 </section>
 <!-- Testimonial Section Start -->
-
 <section class="blog-wrap pt-10 pb-75 bg-f" id="ourGallery">
     <div class="container">
-
         <div class="row">
             <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2  col-md-10 offset-md-1" data-aos="fade-up"
                 data-aos-duration="1200" data-aos-delay="200">
@@ -871,15 +866,14 @@ across the socio-economic spectrum</p>
                 </div>
             </div>
         </div>
-
         <div class="testimonial-slider-two owl-carousel">
             <?php if (!empty($testimonial3)) { ?>
                 <?php $fh = 1;
                 foreach ($testimonial3 as $testi) { ?>
-                    
+                   
                     <div class="testimonial-card style3" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200"
                         style="max-height: 280px;min-height: 200px;width: 350px;">
-                        
+                       
                         <p class="client-quote" style='color: black;line-height: 1.5;font-family: "Roboto", sans-serif;'>
                             <?php echo $testi['pdesc']; ?></p>
                         <ul class="ratings list-style">
@@ -914,14 +908,11 @@ across the socio-economic spectrum</p>
                 } ?>
             </div>
         <?php } ?>
-
     </div>
 </section>
-
 <!-- Testimonial Section End -->
 
 <script>
-
     function getVal(val) {
         var opt = $('.sub_mnu1 option:selected').val();
         location.href = '<?php echo base_url(); ?>' + "index.php/Singlecheckup/" + opt;
@@ -934,6 +925,38 @@ across the socio-economic spectrum</p>
     };
 </script>
 <script>
-        
-
+        $( document ).ready(function() {
+    console.log( "ready!" );
+    let counter = 1;
+        function doctors_counter() {
+            document.getElementById("doctorsCounter-why_ah_sec").textContent = counter;
+            counter = counter + 1;
+            if (counter <= 50) {
+                setTimeout(doctors_counter, 100);
+            }
+            // console.log("doctors="+counter);
+        }
+        doctors_counter();
+        let insurance = 1
+        function insurancePartners() {
+            document.getElementById("insuranceCounter-why_ah_sec").textContent = insurance;
+            insurance++;
+            if (insurance <= 40) {
+                setTimeout(insurancePartners, 100);
+            }
+            // console.log("insurance=" +insurance);
+        }
+        insurancePartners();
+        let bedcounter = 1
+        function bedCount() {
+            document.getElementById("ICUbedsCounter-why_ah_sec").textContent = bedcounter;
+            bedcounter++;
+            if (bedcounter <= 8) {
+                setTimeout(bedCount, 200);
+            }
+              //  console.log("ICU-Beds = "+bedcounter);
+}
+ bedCount();
+});
 </script>
+

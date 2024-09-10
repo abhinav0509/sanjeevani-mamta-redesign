@@ -11,14 +11,14 @@
  </style>
 
 <footer class="object-fit-cover footer-wrap  " id="" style="
-  background-image: url(<?php echo base_url();?>assets/img/footer/Footer-v3-bg.jpg); background-size:cover">
+  background-image: url(<?php echo base_url();?>assets/img/footer/Footer-v4-final.jpg); background-size:cover">
 
     <!-- ,#E85D21 -->
     <div class="container">
         <div class="row pt-100 pb-75 flex-column flex-sm-row flex-wrap gap-0  d-flex text-left">
             <div class="col">
                 <div class=" footer-widget">
-                <img src="<?php echo base_url();?>front/images/sanjeevani-logo.jpg" style="width:250px" alt="sanjivani_logo">
+                    <img src="<?php echo base_url();?>front/images/sanjeevani-logo.jpg" style="width:250px" alt="sanjivani_logo">
 
                     <div class="mt-1">
                         <h4 style=" color:black; font-weight:bold; font-size:23px;" class="w-sm-20%"><i class="fa fa-eye mt-5"
@@ -106,6 +106,12 @@
                             <a href="https://www.sanjeevanimamtahospital.com/index.php/career">
                                 <i class="ri-arrow-right-s-line"></i>
                                 Career
+                            </a>
+                        </li>
+                         <li>
+                            <a href="https://www.sanjeevanimamtahospital.com/index.php/Login">
+                                <i class="ri-arrow-right-s-line"></i>
+                                Login
                             </a>
                         </li>
                         <li>

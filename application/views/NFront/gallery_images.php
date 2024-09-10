@@ -1,13 +1,11 @@
 <!--Start Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8M2EKL5HY2"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  ga('create', 'UA-102355494-3', 'auto');
-  ga('send', 'pageview');
-
+  gtag('config', 'G-8M2EKL5HY2');
 </script>
 <!--  /Start Google Analytics -->
 <style>
@@ -85,7 +83,7 @@ function changeurl(){
         <div class="sidebar-widget" style="margin-top: -33px;margin-bottom: 25px;">
 
         <select class="healthGropdown form-control border-color-4" name="sub_mnu1" id="sub_mnu1" required  onchange="getVal(this);" style="width: 222px;margin-bottom: -10px;margin-top: -10px;">
-            <option value="volvo">Oral Screening Camp</option>
+            <option value="volvo">Select</option>
             <?php if(!empty($result2)){?>
 				       <?php foreach($result2 as $row){?>
 

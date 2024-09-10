@@ -27,15 +27,10 @@
 10. Sign In CSS
 11. FAQ Terms & Conditions
 ----------------------------------*/
-// @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
 // Font Family Variable
-// $primary_font : 'Roboto', sans-serif;
-// $secondary_font: 'Inter', sans-serif;
-
-$primary_font : 'Montserrat', sans-serif;
-$secondary_font: 'Montserrat', sans-serif;
+$primary_font : 'Roboto', sans-serif;
+$secondary_font: 'Inter', sans-serif;
 
 //Color Variable
 $clr_white: #fff;
@@ -60,10 +55,6 @@ $clr_blue:#2490EB;
 
 html {
     scroll-behavior: smooth;
-}
-
-body {
-   font-family: $primary_font !important;
 }
 
 :focus,
@@ -129,7 +120,7 @@ h6 {
     font-weight: 700;
     line-height: 1.4;
     color: $clr_black;
-    font-family: "Montserrat", sans-serif;
+    font-family: $secondary_font;
 
 }
 body {
@@ -749,7 +740,7 @@ select {
             width: 70px;
             height: 7px;
             border-radius: 50%;
-            // background-color: color(#2490EB alpha(26%));
+            background-color: color(#2490EB alpha(26%));
             transform: translateY(-15px);
             animation: loaderPillScale 1800ms linear infinite;
         }

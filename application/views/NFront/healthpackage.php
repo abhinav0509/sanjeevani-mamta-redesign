@@ -1,14 +1,12 @@
 <script src="<?php echo base_url();?>data/js/ASPSnippets_Pager.min.js" type="text/javascript"></script>
 <!--Start Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8M2EKL5HY2"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  ga('create', 'UA-102355494-3', 'auto');
-  ga('send', 'pageview');
-
+  gtag('config', 'G-8M2EKL5HY2');
 </script>
 <!--  /Start Google Analytics -->
 <script>
@@ -75,6 +73,66 @@ $(document).ready(function(){
 .page {
   color: #253544;
 }
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .filters select, .filters button {
+           width: 187px;
+           display: inline-block;
+          /*float: left;*/
+           margin: 0 5px;
+           overflow: hidden;
+           border-radius: 4px;
+           position: relative;
+        }
+        .packages {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .package {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+        }
+        .package img {
+            max-width: 100%;
+            height: 263px;
+            border-radius: 5px;
+        }
+        .package h3 {
+            margin: 10px 0;
+        }
+        .package p {
+            margin: 5px 0;
+        }
+        .package button {
+            padding: 10px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .package .book-now {
+            background-color: #008CBA;
+            color: white;
+        }
+        .package .compare {
+            background-color: #008CBA;
+            color: white;
+        }
+            #sub_mnu1 {
+          background-color: rgb(255 255 255);
+          border: 1px solid rgb(15 113 183);
+          color: #0c0b0b;
+          width: 180px;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
 </style>
 <!-- <section class="pageTitleSection">
       <div class="container">
@@ -104,38 +162,45 @@ $(document).ready(function(){
 
 	 <section class="whiteSection full-width clearfix coursesSection" id="ourGallery">
       <div class="container">
-        <!-- <div class="sectionTitle text-center">
-          <h2>
-            <span class="shape shape-left bg-color-4"></span>
-            <span class="color-2">Health Checkup Packages</span>
-            <span class="shape shape-right bg-color-4"></span>
-          </h2>
+	  <div class="filters">
+            <select id="sub-mnu1" class="form-control sub_mnu1">
+                <option>Select Gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+                
+            </select>
+            <!--<select id="sub-mnu1" class="form-control sub_mnu1">-->
+            <!--    <option>Select Age</option>-->
+            <!--    <option>01-18</option>-->
+            <!--    <option>18-35</option>-->
+            <!--    <option>35-60</option>-->
+            <!--</select>-->
+            <button class="form-control sub_mnu1">Search</button>
+            <button type="button" class="btn btn-danger">Reset</button>
         </div>
-           -->
+        <br><br>
         <div class="row">
 		<?php $cl=1; foreach($result as $pack){ if($cl>6){$cl=1;}?>
 		<div class="col-md-4 col-sm-6 col-xs-12 block">
          
-				<div class="thumbnail thumbnailContent">
+				<div class="package">
 					<a href="<?php echo base_url();?>index.php/Singlecheckup/<?php echo $pack['id'];?>" class="btn btn-link" title="<?php echo $pack['name'];?>"><img src="<?php echo base_url();?>data/uploads/package/<?php echo $pack['image'];?>" alt="image" class="img-responsive">
-					<div class="sticker bg-color-4" style="background-color: rgb(239 151 50) !important;border-radius: 40px; top: 15px; width: 60px; height: 62px; margin-left: -5px"><i class="fa fa-rupee"></i><?php echo $pack['sp'];?></div></a>
-					<div class="blog-info">
-						<h3><a href="javascript:;" class="blog-metainfo  list-style "> <?php echo $pack['name'];?></a></h3>
+					</a>										
+						<h3 style="font-family: auto;font-size: 18px;"><?php echo $pack['name'];?></h3>
 						<ul class="list-unstyled">
-						<!-- <li><i class="fa fa-calendar-o" aria-hidden="true"></i>Mon-Sat</li> -->
+						<li><i class="fa fa-calendar-o" aria-hidden="true"></i>Mon-Sat</li>
 						</ul>
-						<!--<ul class="myhealthList">-->
-						<!--	<?php $test = explode(",",$pack['testname']);?>-->
-						<!--	<?php for($i=0; $i<2; $i++){?>-->
-						<!--		<li><i class="fa fa-check-square" aria-hidden="true"></i> <?php echo substr($test[$i],0,30);?></li>-->
-						<!--	<?php }?>-->
-						<!--</ul>-->
-						<ul class="list-inline btn-yellow">
-							<li><a href="<?php echo base_url();?>index.php/Singlecheckup/<?php echo $pack['id'];?>" class="link style2">Read More <i class="flaticon-right-arrow" aria-hidden="true"></i></a></li>
-							<!--<li><a href="javascript:;" class="btn btn-primary "><i class="fa fa-shopping-basket " aria-hidden="true"></i>Add to Cart</a></li>-->
+						<ul class="myhealthList">
+							<?php $test = explode(",",$pack['testname']);?>
+							<?php for($i=0; $i<1; $i++){?>
+								<i class="fa fa-check-square" aria-hidden="true"></i> <?php echo substr($test[$i],0,30);?>
+							<?php }?>
 						</ul>
-					</div>
+						<p>Rs.<?php echo $pack['sp'];?>.00</p>
+						<button class="book-now"><a href="<?php echo base_url();?>index.php/Singlecheckup/<?php echo $pack['id'];?>" class="book-now" title="<?php echo $pack['name'];?>">Book Now </a></button>
 				</div>
+				<br>
 			</div>
 		<?php $cl++; }?>
         </div>

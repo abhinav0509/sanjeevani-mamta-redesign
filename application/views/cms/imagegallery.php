@@ -260,7 +260,7 @@ function edit_album(id)
 			{
 				var img_url = "<?php echo base_url();?>data/uploads/gallery/"+obj[i]['image'];
 				op+='<div class="col-sm-3 img">';
-				op+='<img id="img1" src="'+img_url+'" style="width:100%; height:150px;border:1px solid #f5f5f5; " />';
+				op+='<img id="img1" src="'+img_url+'" style="width:100%; height:150px;border:1px solid #f5f5f5;"/>';
 				op+='<div class="profile1">';
 				op+='<form action="#" method="post" style="display: inline">';
 				op+='<input type="file" name="change" id="change" style="display:none;">';

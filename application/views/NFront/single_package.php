@@ -1,12 +1,11 @@
+<!--  /Start Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8M2EKL5HY2"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  ga('create', 'UA-102355494-3', 'auto');
-  ga('send', 'pageview');
-
+  gtag('config', 'G-8M2EKL5HY2');
 </script>
 <!--  /Start Google Analytics -->
 
@@ -186,6 +185,17 @@ function coninsert1()
 	color:black;
 	background-color:white;
 }
+button {
+            padding: 10px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+.book-now {
+            background-color: #008CBA;
+            color: white;
+        }
 </style>
 
 
@@ -226,8 +236,24 @@ function coninsert1()
         <!--                            </a>-->
                                      <div class="row">
 									<div class="colum sm-6">
-                                    <img src="<?php echo base_url();?>data/uploads/package/<?php echo $row['image'];?>"  alt="image" class="img-responsive" style="height: 294px;padding: 15px; border-radius: 30px 30px 30px 30px;width: 100%;float: right;">
-								<div class="sticker" style="background-color: #eb4e24;top: 149px;height: 65px;width: 56px;border-radius: 50px;"><i class="fa fa-rupee"></i><?php echo $row['sp'];?></div>
+                                    <img src="<?php echo base_url();?>data/uploads/package/<?php echo $row['image'];?>"  alt="image" class="img-responsive" style="height: 294px;padding: 15px; border-radius: 30px 30px 30px 30px;width: 50%;float: left;">
+								<!--<div class="sticker" style="background-color: #eb4e24;top: 149px;height: 65px;width: 56px;border-radius: 50px;"><i class="fa fa-rupee"></i><?php echo $row['sp'];?></div>-->
+								    <div class="">
+                    					<!--<a href="<?php echo base_url();?>index.php/Singlecheckup/<?php echo $pack['id'];?>" class="btn btn-link" title="<?php echo $pack['name'];?>"><img src="<?php echo base_url();?>data/uploads/package/<?php echo $pack['image'];?>" alt="image" class="img-responsive">-->
+                    					<!--</a>										-->
+                    						<h3 style="font-family: auto;font-size: 18px;"><?php echo $row['name'];?></h3>
+                    						<ul class="list-unstyled">
+                    						<li><i class="fa fa-calendar-o" aria-hidden="true"></i>Mon-Sat</li>
+                    						</ul>
+                                			<ul class="myhealthList">
+            									<?php $test = explode(",",$row['testname']);?>
+            									<?php for($i=0; $i<count($test); $i++){?>
+            										<li><i class="fa fa-check-square" aria-hidden="true"></i> <?php echo $test[$i];?></li>
+            									<?php }?>
+            								</ul>
+                    						<p>Rs.<?php echo $row['sp'];?>.00</p>
+                    						<button class="book-now"><a href="" class="book-now" title="<?php echo $row['name'];?>">Book Now </a></button>
+                    				</div>
 								<!--<img src="<?php echo base_url();?>data/uploads/package/<?php echo $row['image'];?>"  alt="image" class="img-responsive" style="height: 294px;padding: 15px; border-radius: 30px 30px 30px 30px;width: 50%;float: right;">-->
 								<!--<div class="sticker" style="background-color:#2490EB;top: 149px;height: 65px;width: 56px;border-radius: 8px;margin-left: 50%;"><i class="fa fa-rupee"></i><?php echo $row['sp'];?></div>-->
 							</div>
@@ -246,7 +272,7 @@ function coninsert1()
             				    	<div class="post-para" style="text-align:justify;">
                                         <blockquote class="wp-block-quote">
                                             <!--<span class="wp-quote-icon"><i class="flaticon-straight-quotes"></i></span>-->
-                                            <p><?php echo $row['pdesc'];?></p>
+                                            <p> <?php echo $row['pdesc'];?></p>
                                         </blockquote>
                                     </div>
                                   
@@ -254,25 +280,25 @@ function coninsert1()
                                 <?php }?>
                             </div>
                             <div class="col-xl-4">
-                                <div class="homeContactContent" style="padding: 15px;border: 1px solid #CCCCCC">
-                                    <div class="sidebar-widget">
-							<select class="form-control sub_mnu1" name="sub_mnu1" id="sub_mnu1" required  onchange="getVal(this);">
-							<option value="" class="selopt">Select Package</option>
-							<?php 
-							$requestUri = $_SERVER['REQUEST_URI'];
-							$parts = explode('/', $requestUri);	
-							$url=$parts[4];
-						
-							foreach($category as $cat){ 
-							if($cat['id']==$url){	
-							?>
-								<option value="<?php echo $cat['id'];?>" class="selopt" selected><?php echo $cat['name']. '(  Rs. '.$cat['price'].' )';?></option>	
-							<?php }else{ ?>
-								<option value="<?php echo $cat['id'];?>" class="selopt"><?php echo $cat['name']. '(  Rs. '.$cat['price'].' )';?></option>	
-							<?php } }?>
-						</select>
-
+                                 <div class="sidebar-widget">
+        							<select class="form-control sub_mnu1" name="sub_mnu1" id="sub_mnu1" required  onchange="getVal(this);">
+        							<option value="" class="selopt">Select Package</option>
+        							<?php 
+        							$requestUri = $_SERVER['REQUEST_URI'];
+        							$parts = explode('/', $requestUri);	
+        							$url=$parts[4];
+        						
+        							foreach($category as $cat){ 
+        							if($cat['id']==$url){	
+        							?>
+        								<option value="<?php echo $cat['id'];?>" class="selopt" selected><?php echo $cat['name']. '(  Rs. '.$cat['price'].' )';?></option>	
+        							<?php }else{ ?>
+        								<option value="<?php echo $cat['id'];?>" class="selopt"><?php echo $cat['name']. '(  Rs. '.$cat['price'].' )';?></option>	
+        							<?php } }?>
+        						</select>
                                     </div>
+                                    <br><br>
+                                <div class="homeContactContent" style="padding: 15px;border: 1px solid #CCCCCC">
                                     <div class="sidebar-widget">
                                         <br>
                                         <h4>Send Enquiry</h4>    
@@ -293,7 +319,7 @@ function coninsert1()
                                     
                                              <div class="form-group">
                                                   <i class="fa fa-user"></i>
-                                                <input type="text" id="ccname" name="ccname" placeholder="Name" required="" type="text" pattern="[a-z A-z ]+">
+                                                <input class="form-control border-color-4" type="text" id="ccname" name="ccname" placeholder="Name" required="" type="text" pattern="[a-z A-z ]+">
                                             </div>
                                             <div class="form-group">
                                               <i class="fa fa-envelope" aria-hidden="true"></i>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 
     <head>
         <!-- Required meta tags -->
@@ -42,6 +42,7 @@
           <link rel="stylesheet" href="<?php echo base_url(); ?>newFront/css/jquery-select2.min.css">
           <link rel="stylesheet" href="<?php echo base_url(); ?>newFront/css/bootstrap-multiselect.css" type="text/css">
           <link href="<?php echo base_url();?>newFront/css/rk.css?v=1.11" rel="stylesheet" type='text/css'> 
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-8M2EKL5HY2"></script>
           <script src="<?php echo base_url();?>newFront/ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
           <script src="<?php echo base_url();?>newFront/plugins/jquery-ui/jquery-ui.js"></script> 
           <link href="<?php echo base_url();?>front/css/preloader.css" rel="stylesheet" type="text/css">
@@ -60,25 +61,17 @@
           <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>newFront/plugins/isotope/jquery.fancybox.css">
           <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>newFront/plugins/isotope/isotope.css">
           
-          
-          
         <title>Sanjeevani Mamta Hospital & Research Centre</title>
         <!--<link rel="icon" type="image/png" href="<?php echo base_url();?>assets/img/fav.png">-->
          <link rel="shortcut icon" href="<?php echo base_url();?>assets/img/fav.png">
     </head>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-102355494-3', 'auto');
-  ga('send', 'pageview');
-
-  
-</script>
-<!--  /Start Google Analytics -->
-
+         <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-8M2EKL5HY2');
+        </script>
 <script>
 $(document).ready(function(){
 	$(".DepartmentSelect").parent().after("<span class=\"departArrow\"><i class=\"fa fa-caret-down\"></i></span>");
@@ -681,7 +674,6 @@ function coninsert()
 	});
 }
 
-
 </script>
 
 <style>
@@ -757,7 +749,8 @@ function coninsert()
                                         <!--</li>-->
                                         <li>
                                             <span><i class="ri-phone-fill"></i></span>
-                                            <a href="tel:+91 7021487408" style="color: #ffffff;">+91 9769097620 / 40</a>
+                                            <a href="tel:+91 7021487408" style="color: #ffffff;">+91 9769097620/40</a>
+                                            <!--<a href="tel:+91 7021487408" style="color: #ffffff;">+91 7021487408</a>-->
                                         </li>
                                         <li>
                                             <span><i class="ri-map-pin-fill"></i></span>
@@ -766,7 +759,7 @@ function coninsert()
                                     </ul>
                                 </div>
                             </div>
-                            <!-- <div class="col-lg-4">-->
+                            <!--<div class="col-lg-4">-->
                             <!--    <div class="header-top-right">-->
                                     <!--<div class="select-lang">-->
                                     <!--    <i class="ri-earth-fill"></i>-->
@@ -802,24 +795,22 @@ function coninsert()
                                     <!--    </li>-->
                                     <!--</ul>-->
                             <!--    </div>-->
-                            <!--</div> -->
+                            <!--</div>-->
                         </div>
                     </div>
                 </div>
                 
-                
                 <div class="header-bottom">
 				    <div class="container">
                         				<nav class="navbar navbar-expand-md ">
-                           <a class="navbar-brand" href="<?php echo base_url();?>" style="margin-left: -12px;">
+                           <a class="navbar-brand" href="<?php echo base_url();?>" style="margin-left:-12px;">
                                 <img class="logo-light" src="<?php echo base_url();?>front/images/sanjeevani-logo.jpg" style="max-width: 234px;margin-left: -14px;">
-                                
                             </a>
                             <div class="collapse navbar-collapse main-menu-wrap" id="navbarSupportedContent">
                                 <!--<div class="menu-close d-lg-none">-->
                                 <!--    <a href="javascript:void(0)"> <i class="ri-close-line"></i></a>-->
                                 <!--</div>-->
-                                <ul class="navbar-nav ms-auto" style="font-size: 15px;">
+                                <ul class="navbar-nav ms-auto" style="font-size:16px;">
                                     <li class="nav-item">
                                         <a href="<?php echo base_url();?>" class="nav-link active">
                                             Home
@@ -1048,12 +1039,7 @@ function coninsert()
                                                     <i class="ri-arrow-right-s-line"></i>
                                                 </a>
                                                  <ul class="dropdown-menu" style="display: none;left: 190px;top: -12px;max-width: 200px;">
-													<?php foreach($dept1 as $ff){
-											
-                										?>
-                										<li><a title="<?php echo $ff['name'];?> "href="<?php echo base_url();?>index.php/Singlediagnostic/<?php echo $ff['name']; ?>" >
-                										<?php $ff['name'] = str_replace("Radiology & Imaging","Radiology & Imaging Services",$ff['name']); echo substr($ff['name'],0,23);?> </a></li>
-                									<?php }?>
+													
 										             <li><a title="<?php echo "Health Check-Up" ;?> "href="<?php echo base_url();?>index.php/Health_checkup" >Health Check-Up </a></li>
                                                  </ul>
                                             </li>
@@ -1188,12 +1174,12 @@ function coninsert()
                                         <a href="https://www.sanjeevanimamtahospital.com/index.php/Doctors" class="nav-link btn style1">Book Appointment</a>
                                     </li>
                                 </ul>
-                                <!-- <div class="other-options md-none">
-                                    <div class="option-item" style="width: 100px;">
-                                        <a href="https://www.sanjeevanimamtahospital.com/index.php/Login"<button id="secondary-btn" class="col-sm-10 col-md-10 col-lg-5 btn btn-primary ml-10"
-                                style="background-color:#fff; border:1px solid #286499; color:#286499;width:170px;">Login</button></a>
-                                    </div>
-                                </div> -->
+                                <!--<div class="other-options md-none">-->
+                                <!--    <div class="option-item" style="width: 100px;">-->
+                                <!--        <a href="https://www.sanjeevanimamtahospital.com/index.php/Login"<button id="secondary-btn" class="col-sm-10 col-md-10 col-lg-5 btn btn-primary ml-10"-->
+                                <!--style="background-color:#fff; border:1px solid #286499; color:#286499;width:170px;">Login</button></a>-->
+                                <!--    </div>-->
+                                <!--</div>-->
                                 <input type="hidden" id="hosuid" name="hosuid" value="<?php echo $id[0]['hosid'];?>">
                             </div>
                                 <marquee class="ambulance_mar" scrollamount="1">

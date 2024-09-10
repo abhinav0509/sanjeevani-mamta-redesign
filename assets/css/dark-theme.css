@@ -15,6 +15,7 @@
   width: 35px;
   height: 35px;
 }
+
 .switch input {
   opacity: 0;
   width: 0;
@@ -29,14 +30,18 @@
   right: 0;
   bottom: 0;
   background-color: #ccc;
+  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
+
 .slider.round {
   border-radius: 50%;
 }
+
 .slider.round:before {
   border-radius: 50%;
 }
+
 .slider:before {
   position: absolute;
   content: "";
@@ -47,8 +52,10 @@
   top: 0;
   bottom: 0;
   margin: auto 0;
+  -webkit-transition: 0.4s;
   transition: 0.4s;
-  box-shadow: 0 0px 15px rgba(32, 32, 32, 0.2392156863);
+  -webkit-box-shadow: 0 0px 15px #2020203d;
+          box-shadow: 0 0px 15px #2020203d;
   background: white url("../img/night.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -61,10 +68,12 @@ input:checked + .slider {
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px transparent;
+  -webkit-box-shadow: 0 0 1px  transparent;
+          box-shadow: 0 0 1px  transparent;
 }
 
 input:checked + .slider:before {
+  -webkit-transform: translateX(0);
   transform: translateX(0);
   background: white url("../img/sunny.png");
   background-repeat: no-repeat;
@@ -78,6 +87,7 @@ input:checked + .slider:before {
 .theme-light .navbar-brand .logo-dark {
   display: none !important;
 }
+
 .theme-light .navbar-brand .logo-light {
   display: block !important;
 }
@@ -85,12 +95,15 @@ input:checked + .slider:before {
 .theme-dark .dpt-100 {
   padding-top: 100px;
 }
+
 .theme-dark .navbar-brand .logo-light {
   display: none !important;
 }
+
 .theme-dark .navbar-brand .logo-dark {
   display: block !important;
 }
+
 .theme-dark .td-cod,
 .theme-dark .footer-wrap,
 .theme-dark .hero-wrap.style1 .hero-slide-item .hero-img-wrap .promo-box,
@@ -108,6 +121,7 @@ input:checked + .slider:before {
 .theme-dark .bg-albastor {
   background-color: #191919 !important;
 }
+
 .theme-dark body,
 .theme-dark .bg-white,
 .theme-dark .portfolio-card.style1 .portfolio-info,
@@ -116,10 +130,12 @@ input:checked + .slider:before {
 .theme-dark .search-area {
   background-color: #000 !important;
 }
+
 .theme-dark .appointment-form {
   background-color: #000;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
 .theme-dark .td-aztech,
 .theme-dark .contact-item,
 .theme-dark .bg-athens,
@@ -132,6 +148,7 @@ input:checked + .slider:before {
 .theme-dark .wp-block-quote {
   background-color: #091315 !important;
 }
+
 .theme-dark h1,
 .theme-dark h2,
 .theme-dark h3,
@@ -144,6 +161,7 @@ input:checked + .slider:before {
 .theme-dark .btn:hover {
   color: #fff !important;
 }
+
 .theme-dark p, .theme-dark span,
 .theme-dark .checkbox label,
 .theme-dark .content-feature-list li,
@@ -160,86 +178,109 @@ input:checked + .slider:before {
 .theme-dark .post-metainfo li {
   color: rgba(255, 255, 255, 0.85) !important;
 }
+
 .theme-dark h3:hover a,
 .theme-dark a:hover,
 .theme-dark .copyright-text a {
   color: #2490EB !important;
 }
+
 .theme-dark .portfolio-info-widget .portfolio-info-item-wrap .portfolio-info-item,
 .theme-dark .hero-wrap.style2 .hero-appointment .hero-appointment-form .fg-opt-wrap,
 .theme-dark article {
   border-color: rgba(255, 255, 255, 0.19);
 }
+
 .theme-dark .tag-list ul li a {
   background: transparent;
   border-color: rgba(255, 255, 255, 0.2);
   color: #fff !important;
 }
+
 .theme-dark .tag-list ul li a:hover {
   background: #2490EB !important;
   color: #fff;
   border-color: transparent;
 }
+
 .theme-dark .header-wrap.style1 .header-top, .theme-dark .header-wrap.style2 .header-top {
   background-color: #000;
 }
+
 .theme-dark .header-wrap.style1 .header-bottom, .theme-dark .header-wrap.style2 .header-bottom {
   background-color: #191919;
 }
+
 .theme-dark .header-wrap.style1 .header-bottom .searchbtn i, .theme-dark .header-wrap.style2 .header-bottom .searchbtn i {
   color: #fff;
 }
+
 .theme-dark .header-wrap.style3:after {
   background-color: #191919;
 }
+
 .theme-dark .header-wrap.style3 .header-bottom {
   background-color: #091315;
 }
+
 .theme-dark .header-wrap.style3 .searchbtn i {
   color: #fff;
 }
+
 .theme-dark .breadcrumb-wrap:after {
   background-color: rgba(0, 0, 0, 0.9);
 }
+
 .theme-dark .header-wrap .navbar .other-options::before {
   background-color: rgba(255, 255, 255, 0.18);
 }
+
 .theme-dark .accordion-item {
   background: transparent;
 }
+
 .theme-dark .accordion-item .accordion-header .accordion-button {
   background-color: transparent;
   color: #fff;
 }
+
 .theme-dark .accordion-item .accordion-header .accordion-button span {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
 .theme-dark .search-area button i {
   color: #fff;
 }
+
 .theme-dark .sidebar-widget {
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
 .theme-dark .testimonial-card {
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
+
 .theme-dark .header-wrap.style1 .navbar .navbar-nav .nav-item a:hover,
 .theme-dark .header-wrap.style1 .navbar .navbar-nav .nav-item a:focus,
 .theme-dark .header-wrap.style1 .navbar .navbar-nav .nav-item a.active {
   color: #2490EB !important;
 }
+
 .theme-dark .btn.style4,
 .theme-dark .comment-item {
   border-color: rgba(255, 255, 255, 0.2);
 }
+
 .theme-dark .post-author,
 .theme-dark #cmt-form,
 .theme-dark .contact-form,
 .theme-dark .post-meta-option {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
 .theme-dark input, .theme-dark textarea,
 .theme-dark #cmt-form .comment-form .form-group input,
 .theme-dark #cmt-form .comment-form .form-group textarea,
@@ -251,17 +292,22 @@ input:checked + .slider:before {
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;
 }
+
 .theme-dark .partner-item img {
-  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
 }
+
 .theme-dark .page-nav li a {
   border: 1px solid rgba(255, 255, 255, 0.28);
   background-color: transparent;
 }
+
 .theme-dark .page-nav li a:hover {
   background-color: #2490EB;
   color: #fff !important;
 }
+
 .theme-dark .login-form-wrap .login-form .form-group input,
 .theme-dark .contact-widget .form-group input,
 .theme-dark .contact-widget .form-group textarea,
@@ -275,9 +321,43 @@ input:checked + .slider:before {
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;
 }
-.theme-dark .login-form-wrap .login-form .form-group input::-moz-placeholder, .theme-dark .contact-widget .form-group input::-moz-placeholder, .theme-dark .contact-widget .form-group textarea::-moz-placeholder, .theme-dark .book-appointment-form .form-group input::-moz-placeholder, .theme-dark .book-appointment-form .form-group textarea::-moz-placeholder, .theme-dark .book-appointment-form .form-group select::-moz-placeholder, .theme-dark .search-box .form-group input::-moz-placeholder, .theme-dark .appointment-form .form-group input::-moz-placeholder, .theme-dark .appointment-form .form-group select::-moz-placeholder {
+
+.theme-dark .login-form-wrap .login-form .form-group input::-webkit-input-placeholder,
+.theme-dark .contact-widget .form-group input::-webkit-input-placeholder,
+.theme-dark .contact-widget .form-group textarea::-webkit-input-placeholder,
+.theme-dark .book-appointment-form .form-group input::-webkit-input-placeholder,
+.theme-dark .book-appointment-form .form-group textarea::-webkit-input-placeholder,
+.theme-dark .book-appointment-form .form-group select::-webkit-input-placeholder,
+.theme-dark .search-box .form-group input::-webkit-input-placeholder,
+.theme-dark .appointment-form .form-group input::-webkit-input-placeholder,
+.theme-dark .appointment-form .form-group select::-webkit-input-placeholder {
   color: #fff;
 }
+
+.theme-dark .login-form-wrap .login-form .form-group input:-ms-input-placeholder,
+.theme-dark .contact-widget .form-group input:-ms-input-placeholder,
+.theme-dark .contact-widget .form-group textarea:-ms-input-placeholder,
+.theme-dark .book-appointment-form .form-group input:-ms-input-placeholder,
+.theme-dark .book-appointment-form .form-group textarea:-ms-input-placeholder,
+.theme-dark .book-appointment-form .form-group select:-ms-input-placeholder,
+.theme-dark .search-box .form-group input:-ms-input-placeholder,
+.theme-dark .appointment-form .form-group input:-ms-input-placeholder,
+.theme-dark .appointment-form .form-group select:-ms-input-placeholder {
+  color: #fff;
+}
+
+.theme-dark .login-form-wrap .login-form .form-group input::-ms-input-placeholder,
+.theme-dark .contact-widget .form-group input::-ms-input-placeholder,
+.theme-dark .contact-widget .form-group textarea::-ms-input-placeholder,
+.theme-dark .book-appointment-form .form-group input::-ms-input-placeholder,
+.theme-dark .book-appointment-form .form-group textarea::-ms-input-placeholder,
+.theme-dark .book-appointment-form .form-group select::-ms-input-placeholder,
+.theme-dark .search-box .form-group input::-ms-input-placeholder,
+.theme-dark .appointment-form .form-group input::-ms-input-placeholder,
+.theme-dark .appointment-form .form-group select::-ms-input-placeholder {
+  color: #fff;
+}
+
 .theme-dark .login-form-wrap .login-form .form-group input::placeholder,
 .theme-dark .contact-widget .form-group input::placeholder,
 .theme-dark .contact-widget .form-group textarea::placeholder,
@@ -289,6 +369,7 @@ input:checked + .slider:before {
 .theme-dark .appointment-form .form-group select::placeholder {
   color: #fff;
 }
+
 .theme-dark .login-form-wrap,
 .theme-dark .book-appointment-form {
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -316,6 +397,7 @@ input:checked + .slider:before {
     border-color: rgba(255, 255, 255, 0.2);
   }
 }
+
 @media only screen and (min-width: 992px) {
   .theme-dark .header-wrap .navbar .navbar-nav .nav-item .dropdown-menu,
   .theme-dark .main-menu-wrap #menu ul li.has-children .sub-menu {
@@ -329,4 +411,5 @@ input:checked + .slider:before {
   .theme-dark .header-wrap.style2 .navbar .navbar-nav .nav-item .dropdown-menu li {
     border-color: rgba(255, 255, 255, 0.15);
   }
-}/*# sourceMappingURL=dark-theme.css.map */
+}
+/*# sourceMappingURL=dark-theme.css.map */
